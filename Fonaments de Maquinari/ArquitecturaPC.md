@@ -115,35 +115,35 @@ Aquí tens alguns suggeriments de software que pots utilitzar:
 
 <img src="Captures/4.png" alt="imatge4" width="300"> <img src="Captures/5.png" alt="imatge5" width="300">
 
-<img src="Captures/6.png" alt="imatge6" width="300"> <img src="Captures/7.png" alt="imatge7" width="300">
+<img src="Captures/9.png" alt="imatge9" width="300"> <img src="Captures/7.png" alt="imatge7" width="300">
 
 **Navegador Obert**
 
-<img src="Captures/8.png" alt="imatge8" width="300"> <img src="Captures/9.png" alt="imatge9" width="300">
+<img src="Captures/9.png" alt="imatge9" width="300">
 
 <img src="Captures/10.png" alt="imatge10" width="300"> <img src="Captures/11.png" alt="imatge11" width="300">
 
 **BenchMark actiu**
 
-<img src="Captures/12.png" alt="imatge12" width="300"> <img src="Captures/13.png" alt="imatge13" width="300">
+<img src="Captures/12.png" alt="imatge12" width="300"> <img src="Captures/16.png" alt="imatge16" width="300">
 
 <img src="Captures/14.png" alt="imatge14" width="300"> <img src="Captures/15.png" alt="imatge15" width="300">
 
 ### Comprova la velocitat d’internet que tenim disponible.
 
-<img src="Captures/16.png" alt="imatge16" width="300">
+<img src="Captures/17.png" alt="imatge17" width="300">
 
 ### Què és la memòria cau (caché)? Comprova quin espai de caché té cada tipus de caché del teu ordinador. Cerca com visualitzar l'espai que està ocupat per la caché al teu ordinador.
 
 La **Memòria Cau** és un tipus de memòria integrada directament al porcessador. Emmagatzema les dades i les instruccions que la CPU utilitza amb freqüència per evitar qeu les llegeixi la RAM que és més lenta
 
-<img src="Captures/17.png" alt="imatge17" width="300"> <img src="Captures/18.png" alt="imatge18" width="300">
+<img src="Captures/19.png" alt="imatge19" width="300"> <img src="Captures/20.png" alt="imatge20" width="300"> 
 
 ### Què és el bus frontal de l’ordinador? Comprova la velocitat del bus frontal del nostre ordinador.
 
 El **Bus Frontal** de l'ordinador era la linia de comunicació principal entre la CPU i el chipset de la placa base en arquitectures antigues
 
-<img src="Captures/19.png" alt="imatge19" width="300">
+<img src="Captures/21.png" alt="imatge21" width="300">
 
 ### Utilitza l’eina de diagnòstic del fabricant del processador.
 
@@ -151,7 +151,9 @@ El **Bus Frontal** de l'ordinador era la linia de comunicació principal entre l
 
 ### Comprova la temperatura dels components de l’ordinador.
 
-<img src="Captures/22.png" alt="imatge22" width="300"> <img src="Captures/23.png" alt="imatge23" width="300"> <img src="Captures/24.png" alt="imatge24" width="300">
+<img src="Captures/23.png" alt="imatge23" width="300"> 
+<img src="Captures/24.png" alt="imatge24" width="300"> 
+<img src="Captures/25.png" alt="imatge25" width="300">
 
 # Evidència 3
 
