@@ -95,7 +95,7 @@ Aquí tens alguns suggeriments de software que pots utilitzar:
 
 Mira quin processador tens i digues la litografia (busca què és), nombre de nuclis i freqüència de treball que té. Digues per a cadascun d’aquests aspectes què són i en què incideixen en el rendiment de l’ordinador.
 
-<img src="Captures/1.jpg" alt="imatge1" width="300">
+<img src="Captures/1.png" alt="imatge1" width="300">
 
 **Litografia:** És la mida dels transistors fabricats dinsd del xip, mesurada en nanometres (nm). Quan menor sigui la litografia, més trahnsistors és poden incloure en el mateix espai. Això augmenta l'eficiència energètica, redueix la calor generada i amillora el rendiment
 
@@ -103,59 +103,53 @@ Què és el benchmarking? Fes una prova de rendiment (benchmark) del processador
 
 - El **BenchMarking** és el procés d'executar proves entàndart del programari per mesurar el rendiment d'un component o sistema i comparar-lo amb altres
 
-<img src="Captures/2.jpg" alt="imatge2" width="300">
-<img src="Captures/3.jpg" alt="imatge3" width="300">
+<img src="Captures/2.png" alt="imatge2" width="300"> <img src="Captures/3.png" alt="imatge3" width="300">
 
 Mostrar el consum de recursos de l’ordinador CPU, RAM, xarxa, disc, gràfica, etc. sense tenir cap programa funcionant, amb el navegador obert i amb el programa de benchmark en funcionament.
 
 - **Cap Programa Funcionant**
 
-<img src="Captures/4.jpg" alt="imatge4" width="300">
-<img src="Captures/5.jpg" alt="imatge5" width="300">
-<img src="Captures/6.jpg" alt="imatge6" width="300">
-<img src="Captures/7.jpg" alt="imatge7" width="300">
+<img src="Captures/4.png" alt="imatge4" width="300"> <img src="Captures/5.png" alt="imatge5" width="300">
+
+<img src="Captures/6.png" alt="imatge6" width="300"> <img src="Captures/7.png" alt="imatge7" width="300">
 
 **Navegador Obert**
 
-<img src="Captures/8.jpg" alt="imatge8" width="300">
-<img src="Captures/9.jpg" alt="imatge9" width="300">
-<img src="Captures/10.jpg" alt="imatge10" width="300">
-<img src="Captures/11.jpg" alt="imatge11" width="300">
+<img src="Captures/8.png" alt="imatge8" width="300"> <img src="Captures/9.png" alt="imatge9" width="300">
+
+<img src="Captures/10.png" alt="imatge10" width="300"> <img src="Captures/11.png" alt="imatge11" width="300">
 
 **BenchMark actiu**
 
-<img src="Captures/12.jpg" alt="imatge12" width="300">
-<img src="Captures/13.jpg" alt="imatge13" width="300">
-<img src="Captures/14.jpg" alt="imatge14" width="300">
-<img src="Captures/15.jpg" alt="imatge15" width="300">
+<img src="Captures/12.png" alt="imatge12" width="300"> <img src="Captures/13.png" alt="imatge13" width="300">
+
+<img src="Captures/14.png" alt="imatge14" width="300"> <img src="Captures/15.png" alt="imatge15" width="300">
 
 Comprova la velocitat d’internet que tenim disponible.
 
-<img src="Captures/16.jpg" alt="imatge16" width="300">
+<img src="Captures/16.png" alt="imatge16" width="300">
 
 Què és la memòria cau (caché)? Comprova quin espai de caché té cada tipus de caché del teu ordinador. Cerca com visualitzar l'espai que està ocupat per la caché al teu ordinador.
 
 La **Memòria Cau** és un tipus de memòria integrada directament al porcessador. Emmagatzema les dades i les instruccions que la CPU utilitza amb freqüència per evitar qeu les llegeixi la RAM que és més lenta
 
-<img src="Captures/17.jpg" alt="imatge17" width="300">
-<img src="Captures/18.jpg" alt="imatge18" width="300">
+<img src="Captures/17.png" alt="imatge17" width="300"> <img src="Captures/18.png" alt="imatge18" width="300">
 
 Què és el bus frontal de l’ordinador? Comprova la velocitat del bus frontal del nostre ordinador.
 
 El **Bus Frontal** de l'ordinador era la linia de comunicació principal entre la CPU i el chipset de la placa base en arquitectures antigues
 
-<img src="Captures/19.jpg" alt="imatge19" width="300">
+<img src="Captures/19.png" alt="imatge19" width="300">
 
 Utilitza l’eina de diagnòstic del fabricant del processador.
 
-<img src="Captures/20.jpg" alt="imatge20" width="300">
+<img src="Captures/20.png" alt="imatge20" width="300">
 
 Comprova la temperatura dels components de l’ordinador.
 
-<img src="Captures/21.jpg" alt="imatge21" width="300">
-<img src="Captures/22.jpg" alt="imatge22" width="300">
-<img src="Captures/23.jpg" alt="imatge23" width="300">
-<img src="Captures/24.jpg" alt="imatge24" width="300">
+<img src="Captures/21.png" alt="imatge21" width="300"> <img src="Captures/22.png" alt="imatge22" width="300">
+
+<img src="Captures/23.png" alt="imatge23" width="300"> <img src="Captures/24.png" alt="imatge24" width="300">
 
 # Evidència 3
 
