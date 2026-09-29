@@ -15,17 +15,3 @@ site:
           default: true
           content:
             directory: ./politecnicsegc-docs/untitled
-    - type: section
-      key: section-2
-      title: Arquitectura PC
-      path: arquitectura-pc
-      description: ""
-      children:
-        - type: space
-          key: space-2
-          title: Arquitectura PC
-          path: arquitectura-pc
-          default: true
-          draft: true
-          content:
-            directory: ./arquitectura-pc
