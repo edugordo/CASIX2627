@@ -97,9 +97,9 @@ Aquí tens alguns suggeriments de software que pots utilitzar:
 
 <img src="Captures/1.png" alt="imatge1" width="300">
 
-- Litografia:
-- Nombre de Nuclis:
-- Freqüència de Treball:      
+- Litografia: 10 nm
+- Nombre de Nuclis: 16
+- Freqüència de Treball: 4489.02 MHz      
 
 **Litografia:** És la mida dels transistors fabricats dinsd del xip, mesurada en nanometres (nm). Quan menor sigui la litografia, més trahnsistors és poden incloure en el mateix espai. Això augmenta l'eficiència energètica, redueix la calor generada i amillora el rendiment
 
@@ -147,13 +147,11 @@ El **Bus Frontal** de l'ordinador era la linia de comunicació principal entre l
 
 ### Utilitza l’eina de diagnòstic del fabricant del processador.
 
-<img src="Captures/20.png" alt="imatge20" width="300">
+<img src="Captures/20.png" alt="imatge20" width="300"> <img src="Captures/21.png" alt="imatge21" width="300">
 
 ### Comprova la temperatura dels components de l’ordinador.
 
-<img src="Captures/21.png" alt="imatge21" width="300"> <img src="Captures/22.png" alt="imatge22" width="300">
-
-<img src="Captures/23.png" alt="imatge23" width="300"> <img src="Captures/24.png" alt="imatge24" width="300">
+<img src="Captures/22.png" alt="imatge22" width="300"> <img src="Captures/23.png" alt="imatge23" width="300"> <img src="Captures/24.png" alt="imatge24" width="300">
 
 # Evidència 3
 
