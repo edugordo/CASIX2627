@@ -119,15 +119,13 @@ Aquí tens alguns suggeriments de software que pots utilitzar:
 
 **Navegador Obert**
 
-<img src="Captures/9.png" alt="imatge9" width="300">
-
 <img src="Captures/10.png" alt="imatge10" width="300"> <img src="Captures/11.png" alt="imatge11" width="300">
 
 **BenchMark actiu**
 
-<img src="Captures/12.png" alt="imatge12" width="300"> <img src="Captures/16.png" alt="imatge16" width="300">
-
 <img src="Captures/14.png" alt="imatge14" width="300"> <img src="Captures/15.png" alt="imatge15" width="300">
+
+<img src="Captures/12.png" alt="imatge12" width="300"> <img src="Captures/16.png" alt="imatge16" width="300">
 
 ### Comprova la velocitat d’internet que tenim disponible.
 
