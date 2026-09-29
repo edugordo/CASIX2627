@@ -93,19 +93,23 @@ Aquí tens alguns suggeriments de software que pots utilitzar:
 - CPU-Z (https://www.cpuid.com/softwares/cpu-z.html)
 - UserBenchmark (https://www.userbenchmark.com/Software)
 
-Mira quin processador tens i digues la litografia (busca què és), nombre de nuclis i freqüència de treball que té. Digues per a cadascun d’aquests aspectes què són i en què incideixen en el rendiment de l’ordinador.
+### Mira quin processador tens i digues la litografia (busca què és), nombre de nuclis i freqüència de treball que té. Digues per a cadascun d’aquests aspectes què són i en què incideixen en el rendiment de l’ordinador.
 
 <img src="Captures/1.png" alt="imatge1" width="300">
 
+- Litografia:
+- Nombre de Nuclis:
+- Freqüència de Treball:      
+
 **Litografia:** És la mida dels transistors fabricats dinsd del xip, mesurada en nanometres (nm). Quan menor sigui la litografia, més trahnsistors és poden incloure en el mateix espai. Això augmenta l'eficiència energètica, redueix la calor generada i amillora el rendiment
 
-Què és el benchmarking? Fes una prova de rendiment (benchmark) del processador que tens a l’ordinador. Després fes una prova de rendiment de la gràfica integrada.
+### Què és el benchmarking? Fes una prova de rendiment (benchmark) del processador que tens a l’ordinador. Després fes una prova de rendiment de la gràfica integrada.
 
 - El **BenchMarking** és el procés d'executar proves entàndart del programari per mesurar el rendiment d'un component o sistema i comparar-lo amb altres
 
 <img src="Captures/2.png" alt="imatge2" width="300"> <img src="Captures/3.png" alt="imatge3" width="300">
 
-Mostrar el consum de recursos de l’ordinador CPU, RAM, xarxa, disc, gràfica, etc. sense tenir cap programa funcionant, amb el navegador obert i amb el programa de benchmark en funcionament.
+### Mostrar el consum de recursos de l’ordinador CPU, RAM, xarxa, disc, gràfica, etc. sense tenir cap programa funcionant, amb el navegador obert i amb el programa de benchmark en funcionament.
 
 - **Cap Programa Funcionant**
 
@@ -125,27 +129,27 @@ Mostrar el consum de recursos de l’ordinador CPU, RAM, xarxa, disc, gràfica, 
 
 <img src="Captures/14.png" alt="imatge14" width="300"> <img src="Captures/15.png" alt="imatge15" width="300">
 
-Comprova la velocitat d’internet que tenim disponible.
+### Comprova la velocitat d’internet que tenim disponible.
 
 <img src="Captures/16.png" alt="imatge16" width="300">
 
-Què és la memòria cau (caché)? Comprova quin espai de caché té cada tipus de caché del teu ordinador. Cerca com visualitzar l'espai que està ocupat per la caché al teu ordinador.
+### Què és la memòria cau (caché)? Comprova quin espai de caché té cada tipus de caché del teu ordinador. Cerca com visualitzar l'espai que està ocupat per la caché al teu ordinador.
 
 La **Memòria Cau** és un tipus de memòria integrada directament al porcessador. Emmagatzema les dades i les instruccions que la CPU utilitza amb freqüència per evitar qeu les llegeixi la RAM que és més lenta
 
 <img src="Captures/17.png" alt="imatge17" width="300"> <img src="Captures/18.png" alt="imatge18" width="300">
 
-Què és el bus frontal de l’ordinador? Comprova la velocitat del bus frontal del nostre ordinador.
+### Què és el bus frontal de l’ordinador? Comprova la velocitat del bus frontal del nostre ordinador.
 
 El **Bus Frontal** de l'ordinador era la linia de comunicació principal entre la CPU i el chipset de la placa base en arquitectures antigues
 
 <img src="Captures/19.png" alt="imatge19" width="300">
 
-Utilitza l’eina de diagnòstic del fabricant del processador.
+### Utilitza l’eina de diagnòstic del fabricant del processador.
 
 <img src="Captures/20.png" alt="imatge20" width="300">
 
-Comprova la temperatura dels components de l’ordinador.
+### Comprova la temperatura dels components de l’ordinador.
 
 <img src="Captures/21.png" alt="imatge21" width="300"> <img src="Captures/22.png" alt="imatge22" width="300">
 
