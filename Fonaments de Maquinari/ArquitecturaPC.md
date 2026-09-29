@@ -113,13 +113,15 @@ Aquí tens alguns suggeriments de software que pots utilitzar:
 
 - **Cap Programa Funcionant**
 
-<img src="Captures/4.png" alt="imatge4" width="300"> <img src="Captures/5.png" alt="imatge5" width="300">
+<img src="Captures/4.png" alt="imatge4" width="300"> <img src="Captures/9.png" alt="imatge9" width="300">
 
-<img src="Captures/9.png" alt="imatge9" width="300"> <img src="Captures/7.png" alt="imatge7" width="300">
+<img src="Captures/5.png" alt="imatge5" width="300"> <img src="Captures/7.png" alt="imatge7" width="300">
 
 **Navegador Obert**
 
 <img src="Captures/10.png" alt="imatge10" width="300"> <img src="Captures/11.png" alt="imatge11" width="300">
+
+<img src="Captures/31.png" alt="imatge31" width="300"> <img src="Captures/32.png" alt="imatge32" width="300">
 
 **BenchMark actiu**
 
