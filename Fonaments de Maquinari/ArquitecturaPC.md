@@ -147,7 +147,7 @@ El **Bus Frontal** de l'ordinador era la linia de comunicació principal entre l
 
 ### Utilitza l’eina de diagnòstic del fabricant del processador.
 
-<img src="Captures/20.png" alt="imatge20" width="300"> <img src="Captures/21.png" alt="imatge21" width="300">
+<img src="Captures/30.png" alt="imatge30" width="300">
 
 ### Comprova la temperatura dels components de l’ordinador.
 
