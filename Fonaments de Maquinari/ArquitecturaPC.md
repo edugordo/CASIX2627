@@ -83,7 +83,7 @@ Torna a connectar el ventilador auxiliar de la caixa a la placa base, col·loca 
 
 # Evidència 2
 
-Per a cada apartat respon les preguntes, documenta al Gitbook amb captures els processos que realitzis i explica quin software s’ha utilitzat per a consultar la informació que es demana de l’ordinador.
+## Per a cada apartat respon les preguntes, documenta al Gitbook amb captures els processos que realitzis i explica quin software s’ha utilitzat per a consultar la informació que es demana de l’ordinador.
 
 **Realitza aquest apartat amb el teu ordinador portàtil.**
 
@@ -157,9 +157,41 @@ El **Bus Frontal** de l'ordinador era la linia de comunicació principal entre l
 
 # Evidència 3
 
-Emplena el següent en un Google Docs per als dos casos. Cal justificar el perquè de cada requeriment (per exemple: necessita tenir tants GB de RAM perquè ...). Cerca un ordinador que compleixi aquestes característiques mínimes i intenta ajustar el preu a que sigui el més barat possible.
+## Emplena el següent en un Google Docs per als dos casos. Cal justificar el perquè de cada requeriment (per exemple: necessita tenir tants GB de RAM perquè ...). Cerca un ordinador que compleixi aquestes característiques mínimes i intenta ajustar el preu a que sigui el més barat possible.
 
-Investiga quines necessitats tindria en quant a components un ordinador portàtil per a fer auditories de seguretat.
+### Investiga quines necessitats tindria en quant a components un ordinador portàtil per a fer auditories de seguretat.
 
-Investiga i determina quines necessitats i especificacions tindria un servidor dedicat per a suportar una càrrega constant de 1.000 usuaris concurrents en un servidor web.
+- Processador: Intel Core i7
+  - Justificació: En auditories de seguretat es imprescindible utilitzar hipervisors per executar simultaniament el sistema operatiu proncipal i diverses màquines virtuals. Pel que es necessita un processador que disposi de minim 8 nuclis i 16 fils
 
+- Memòria RAM: 16 GB DDR4/DDR5
+  - Justificació: Les màquines virtuals necessites el seu propi espai de RAM assignat per poder funcionar correctament. Si sumem tot el funcionament de les màquines i contem tambe amb el propi sistema operatiu amfitrió 8 GB de RAM es queden curts
+
+- Emmagatzematge: 512 GB - 1 TB SSD NVMe M.2
+  - Justificació: Una maquina virtual, normalment, com a predeterminat, ocupa entre 15 i 40 GB d'espai en el disc, pel que, en el cas que es necessitessin varies, l'espai ocupat al disc seria massa perque pugues funcionar el ordinador amb total rendiment
+
+- Targeta Xarxa: Wi-Fi compatible amb Mode Monitor
+  - Justificació: Per poder funcionar amb xarxes inal·làmbriques, el xip de xarxa ha de permetre posar la interfìcie en mode monitor. si la tageta no es compatible, caldrà una USB externa
+
+- Targeta Gràfica Integrada (Intel Iris) Dedicada (NVIDIA RTX)
+  - Justificació: S'utilitza normalment per la descodificacií i atracament de "hashes" d econtrasenyes. La GPU és capaç de provar milions de commbinacions per segon, tasca ona la CPU es extremadament lenta
+
+- Connectivitat: Ethernet RJ-45 i USB 3.2
+  - Justificació: El port Ethernet permet connectar-se directament a la xarxa d'un client per dur a terme auditories internes. Els ports USB son necessaris per connectar antenes Wi-Fi addicionals, eines de harware com discs durs o sistemes operatius booteables
+
+### Investiga i determina quines necessitats i especificacions tindria un servidor dedicat per a suportar una càrrega constant de 1.000 usuaris concurrents en un servidor web.
+
+- Processador (CPU): Mínim 16 a 24 nuclis amb 32 a 48 fils
+  - Justificació: Cada connexió simultània requereix capacitat de processament paral·lel. Aquest volum de nuclis evita que el servidor es col·lapsi i manté els temps de resposta baixos.
+
+- Memòria RAM: Mínim 64 GB a 128 GB RAM ECC
+  - Justificació: Les 1.000 sessions actives i la base de dades consumeixen directament desenes de gigabytes de RAM. La memòria restant s'utilitza per a la memòria cau, mentre que la tecnologia ECC evita caigudes del sistema corregint errors de memòria en temps real.
+
+- Emmagatzematge: 2x SSD NVMe Enterprise de 960 GB en RAID 1
+  - Justificació: Els SSDs de classe Enterprise suporten un alt volum d'operacions per segon (IOPS) sense degradar-se. La configuració en RAID 1 garanteix que el servidor continuï funcionant si falla un dels discs.
+
+- Ample de banda i Xarxa: Port dedicat de 1 Gbps
+  -  Justificació: Evita el col·lapse de la interfície de xarxa davant els pics de tràfic que generen 1.000 usuaris descarregant informació alhora.
+
+- Font d'alimentació redundant (2x PSU)
+  - Justificació: Garanteix el funcionament continuat del servidor si es produeix una fallada en una de les fonts o en la línia elèctrica.
