@@ -1,0 +1,31 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: PolitecnicsEGC Docs
+  structure:
+    - type: section
+      key: section-1
+      title: PolitecnicsEGC Docs
+      path: politecnicsegc-docs
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Untitled
+          path: untitled
+          default: true
+          content:
+            directory: ./politecnicsegc-docs/untitled
+    - type: section
+      key: section-2
+      title: Arquitectura PC
+      path: arquitectura-pc
+      description: ""
+      children:
+        - type: space
+          key: space-2
+          title: Arquitectura PC
+          path: arquitectura-pc
+          default: true
+          draft: true
+          content:
+            directory: ./arquitectura-pc
