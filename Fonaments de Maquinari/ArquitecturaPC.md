@@ -85,7 +85,7 @@ Torna a connectar el ventilador auxiliar de la caixa a la placa base, col·loca 
 
 Per a cada apartat respon les preguntes, documenta al Gitbook amb captures els processos que realitzis i explica quin software s’ha utilitzat per a consultar la informació que es demana de l’ordinador.
 
-Realitza aquest apartat amb el teu ordinador portàtil.
+**Realitza aquest apartat amb el teu ordinador portàtil.**
 
 Aquí tens alguns suggeriments de software que pots utilitzar:
 
@@ -95,19 +95,52 @@ Aquí tens alguns suggeriments de software que pots utilitzar:
 
 Mira quin processador tens i digues la litografia (busca què és), nombre de nuclis i freqüència de treball que té. Digues per a cadascun d’aquests aspectes què són i en què incideixen en el rendiment de l’ordinador.
 
+![imatgeX](Captures/X.png)
+
+**Litografia:** És la mida dels transistors fabricats dinsd del xip, mesurada en nanometres (nm). Quan menor sigui la litografia, més trahnsistors és poden incloure en el mateix espai. Això augmenta l'eficiència energètica, redueix la calor generada i amillora el rendiment 
+
 Què és el benchmarking? Fes una prova de rendiment (benchmark) del processador que tens a l’ordinador. Després fes una prova de rendiment de la gràfica integrada.
+
+- El **BenchMarking** és el procés d'executar proves entàndart del programari per mesurar el rendiment d'un component o sistema i comparar-lo amb altres
+
+![imatgeX](Captures/X.png) ![imatgeX](Captures/X.png)
 
 Mostrar el consum de recursos de l’ordinador CPU, RAM, xarxa, disc, gràfica, etc. sense tenir cap programa funcionant, amb el navegador obert i amb el programa de benchmark en funcionament.
 
+- **Cap Programa Funcionant**
+![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)
+
+**Navegador Obert**
+
+![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)
+
+**BenchMark actiu**
+
+![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)
+
 Comprova la velocitat d’internet que tenim disponible.
+
+![imatgeX](Captures/X.png)
 
 Què és la memòria cau (caché)? Comprova quin espai de caché té cada tipus de caché del teu ordinador. Cerca com visualitzar l'espai que està ocupat per la caché al teu ordinador.
 
+La **Memòria Cau** és un tipus de memòria integrada directament al porcessador. Emmagatzema les dades i les instruccions que la CPU utilitza amb freqüència per evitar qeu les llegeixi la RAM que és més lenta
+
+![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)
+
 Què és el bus frontal de l’ordinador? Comprova la velocitat del bus frontal del nostre ordinador.
+
+El **Bus Frontal** de l'ordinador era la linia de comunicació principal entre la CPU i el chipset de la placa base en arquitectures antigues
+
+![imatgeX](Captures/X.png)
 
 Utilitza l’eina de diagnòstic del fabricant del processador.
 
+![imatgeX](Captures/X.png)
+
 Comprova la temperatura dels components de l’ordinador.
+
+![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)![imatgeX](Captures/X.png)
 
 # Evidència 3
 
