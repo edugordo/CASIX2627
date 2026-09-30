@@ -4,6 +4,18 @@
 
 ---
 
+# 📑 Índex
+
+- [🔧 Evidència 1 — Muntatge i neteja del PC](#-evidència-1--muntatge-i-neteja-del-pc)
+- [🖥️ Evidència 2 — Anàlisi de l'ordinador portàtil](#️-evidència-2--anàlisi-de-lordinador-portàtil)
+- [🖥️ Evidència 3 — Requisits dels equips](#️-evidència-3--requisits-dels-equips)
+- [✅ Conclusions](#-conclusions)
+  - [Evidència 1](#evidència-1)
+  - [Evidència 2](#evidència-2)
+  - [Evidència 3](#evidència-3)
+
+---
+
 # 🔧 Evidència 1 — Muntatge i neteja del PC
 
 ## 1. 🏷️ Identificació de l'ordinador
