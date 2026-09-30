@@ -7,8 +7,8 @@
 # 📑 Índex
 
 - [🔧 Evidència 1 — Muntatge i neteja del PC](#-evidència-1)
-- [🖥️ Evidència 2 — Anàlisi de l'ordinador portàtil](#-🖥️-evidència-2)
-- [🖥️ Evidència 3 — Requisits dels equips](#-🖥️-evidència-3)
+- [🖥️ Evidència 2 — Anàlisi de l'ordinador portàtil](#-evidència-2)
+- [🖥️ Evidència 3 — Requisits dels equips](#-evidència-3)
 
 ---
 
