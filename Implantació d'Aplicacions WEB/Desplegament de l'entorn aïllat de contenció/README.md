@@ -1,4 +1,4 @@
-# 🚀 Píndola de Ciberseguretat i Arquitectura Web
+# Desplegament de l'entorn aïllat de contenció
 
 Benvinguts a aquesta sessió pràctica de **Ciberseguretat i Arquitectura Web**! 🔐
 
