@@ -1,6 +1,12 @@
 # IMPLANTACIÓ D'APLICACIONS WEB - DESPLEGAMENT DE L'ENTORN AÏLLAT DE CONTENCIÓ
 ## EDU GORDO CEBRIÀ | CASIX 26 - 27
 
+# Índex
+
+1. [Evidència 1: Aïllament de xarxa](#-evidència-1-aïllament-de-xarxa)
+2. [Evidència 2: Desplegament de la pila LAMP](#-evidència-2-desplegament-de-la-pila-lamp)
+3. [Evidència 3: Registre automàtic d'IP](#-evidència-3-registre-automàtic-dip)
+
 ## Evidència 1: Desplegament d'entorn aïllat
 
 - **Aïllament de xarxa:** Canviar l'adaptador de xarxa de la VM Servidor i la VM Víctima a Xarxa Interna o Només-Anfitrió (Host-Only).
