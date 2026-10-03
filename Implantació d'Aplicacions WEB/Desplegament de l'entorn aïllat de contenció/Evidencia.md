@@ -3,7 +3,8 @@
 
 **Aïllament de xarxa:** Canviar l'adaptador de xarxa de la VM Servidor i la VM Víctima a Xarxa Interna o Només-Anfitrió (Host-Only).
 
-![imatge](Captures/1.png)
+![imatge](Captures/1.1.png) 
+![imatge](Captures/1.2.png)
 
 ### Verificació de seguretat:
 
