@@ -15,11 +15,12 @@
 ![Imatge](Captures/3.png)
 ![Imatge](Captures/4.png)
 
-| Windows | Kali |
+| Paràmetre | Windows | Kali |
+| :--- | :--- | :--- |
 | **IP** | 192.168.56.103 | 192.168.56.104 |
 | **Màscara** | 255.255.255.0 | 255.255.255.0 |
 | **Gateway** | 192.168.56.255 | 192.168.56.255 |
-| **DNS** |  | |
+| **DNS** | - | - |
 | **MAC** | 08-00-27-B4-C2-73 | 08:00:27:63:B9:1C |
 
 ### - Comprovar la comunicació Windows → Kali amb la comanda ping per als dos tipus d'adaptador.
