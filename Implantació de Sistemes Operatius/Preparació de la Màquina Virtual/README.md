@@ -1,4 +1,4 @@
-# Preparació de la Màquina Virtual
+# 💊 Preparació de la Màquina Virtual
 ## Edu Gordo | CASIX 1r 26 - 27
 
 ---
