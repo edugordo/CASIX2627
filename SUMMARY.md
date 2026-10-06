@@ -1,7 +1,6 @@
 # Table of contents
 
 * [CASIX2627](README.md)
-* [Page 1](page-1.md)
 * [Fonaments de Maquinari](<Fonaments de Maquinari/README.md>)
   * [ArquitecturaPC](<Fonaments de Maquinari/ArquitecturaPC/README.md>)
     * [ArquitecturaPC](<Fonaments de Maquinari/ArquitecturaPC/ArquitecturaPC.md>)
