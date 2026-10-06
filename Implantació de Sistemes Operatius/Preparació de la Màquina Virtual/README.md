@@ -77,6 +77,22 @@ netsh advfirewall set allprofiles state off
 ## Evidència 3: Permisos
 ### - A Linux, entra a la carpeta practica de l’exercici anterior i executa ls -l prova.txt i ls -ld .; anota el propietari, el grup i els permisos de lectura (r), escriptura (w) i execució (x) que té cadascun. Aplica chmod 600 prova.txt, intenta llegir-lo amb cat prova.txt i afegeix-hi una línia amb echo Prova >> prova.txt. Després, retira’t el permís d’escriptura amb chmod u-w prova.txt i torna a intentar afegir-hi una línia. Anota el resultat i recupera el permís amb chmod u+w prova.txt. Crea la carpeta privada dins de practica, aplica-hi chmod 700 privada i comprova’n els permisos amb ls -ld privada. En un equip de pràctiques on tinguis permisos d’administració, crea un segon usuari amb sudo useradd -m alumneprova i assigna-li una contrasenya amb sudo passwd alumneprova.
 
+![Imatge](Captures/20.png)
+![Imatge](Captures/21.png)
+![Imatge](Captures/22.png)
+
 ### - A Windows, entra a la carpeta practica que vas crear i consulta els permisos de prova.txt amb icacls prova.txt. Crea també una carpeta privada amb mkdir privada i consulta’n els permisos amb icacls privada. Obre CMD com a administrador i crea un usuari local amb net user alumneprova * /add; escriu la contrasenya quan se’t demani. Torna a practica i concedeix-li permís de lectura sobre el fitxer amb icacls prova.txt /grant alumneprova:R. Consulta de nou els permisos amb icacls prova.txt. Obre una consola amb el compte nou mitjançant runas /user:.\alumneprova cmd, entra a practica i prova de llegir prova.txt amb type prova.txt i de modificar-lo amb echo Prova >> prova.txt. Anota què permet fer cada prova.
 
+![Imatge](Captures/23.png)
+![Imatge](Captures/24.png)
+![Imatge](Captures/25.png)
+![Imatge](Captures/26.png)
+![Imatge](Captures/27.png)
+
 ### - A Kali Linux, treballa dins de la carpeta practica de l’exercici anterior. Consulta prova.txt amb stat prova.txt i compara’n la sortida amb ls -l prova.txt. Crea (substitueix nomalumne pel teu nom i cognom) amb sudo useradd -m nomalumne i sudo passwd alumneprova. Aplica chmod 644 prova.txt i prova de llegir el fitxer com a usuari nou amb sudo -u alumneprova cat prova.txt; intenta també modificar-lo amb sudo -u alumneprova sh -c 'echo Prova >> prova.txt'. Repeteix les dues proves després d’aplicar chmod 640 prova.txt i, finalment, chmod 600 prova.txt. Si el segon usuari no pot arribar fins al fitxer, consulta els permisos de la carpeta practica amb ls -ld . i anota aquesta causa. Lliura una taula amb cada configuració provada, els permisos de prova.txt i privada, l’usuari que ha fet la prova i si ha pogut llegir, escriure o entrar a la carpeta.
+
+![Imatge](Captures/28.png)
+![Imatge](Captures/29.png)
+![Imatge](Captures/30.png)
+![Imatge](Captures/31.png)
+![Imatge](Captures/32.png)
