@@ -3,6 +3,7 @@
 
 # 📋 Evidències
 
+![Imatge](Captures/unnamed.png)
 ## - Fes un esquema de l'ordre d'arrencada amb BIOS/UEFI sense TPM i amb TPM.
 ## - Fes fotos de les diferents parts del procés d'arrencada al teu ordinador (que no tingui TPM, és a dir, el del taller) i explica en què consisteix cada part:
 ###  1. En el cas de MBR, cal explicar en què es diferencia de GPT.
