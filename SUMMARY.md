@@ -2,6 +2,7 @@
 
 * [CASIX2627](README.md)
 * [Fonaments de Maquinari](<Fonaments de Maquinari/README.md>)
+  * [Proba creacio carpetes](fonaments-de-maquinari/proba-creacio-carpetes.md)
   * [ArquitecturaPC](<Fonaments de Maquinari/ArquitecturaPC/README.md>)
     * [ArquitecturaPC](<Fonaments de Maquinari/ArquitecturaPC/ArquitecturaPC.md>)
 * [Implantació d'Aplicacions WEB](<Implantació d'Aplicacions WEB/README.md>)
