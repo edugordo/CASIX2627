@@ -5,9 +5,49 @@
 
 ![Imatge](Captures/unnamed.png)
 ## - Fes un esquema de l'ordre d'arrencada amb BIOS/UEFI sense TPM i amb TPM.
+
+## - Fes un esquema de l'ordre d'arrencada amb BIOS/UEFI sense TPM i amb TPM
+
+## Esquema de l'ordre d'arrencada amb BIOS/UEFI sense TPM i amb TPM
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Sense TPM
+
+```mermaid
+flowchart TD
+    A["Engegada de l'ordinador"] --> B["BIOS / UEFI"]
+    B --> C["Comprovació del maquinari (POST)"]
+    C --> D["Selecció del dispositiu d'arrencada"]
+    D --> E["Carregador d'arrencada"]
+    E --> F["Inici del sistema operatiu"]
+```
+
+</td>
+<td width="50%" valign="top">
+
+### Amb TPM
+
+```mermaid
+flowchart TD
+    A["Engegada de l'ordinador"] --> B["BIOS / UEFI"]
+    B --> C["Comprovació del maquinari (POST)"]
+    C --> D["TPM: registre de mesures i protecció de claus"]
+    D --> E["Secure Boot: verificació de signatures (si està activat)"]
+    E --> F["Carregador d'arrencada"]
+    F --> G["Inici del sistema operatiu"]
+```
+
+</td>
+</tr>
+</table>
+
 ## - Fes fotos de les diferents parts del procés d'arrencada al teu ordinador (que no tingui TPM, és a dir, el del taller) i explica en què consisteix cada part:
 ###  1. En el cas de MBR, cal explicar en què es diferencia de GPT.
 ###  2. Comprova si el teu ordinador portàtil té UEFI o BIOS i fes el mateix amb l'ordinador del taller que tens assignat.
+
 
 ---
 
