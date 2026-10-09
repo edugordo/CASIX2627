@@ -1,9 +1,14 @@
+# Seguretat en l'Arrencada
+## Fonaments de Maquinàri | Edu Gordo Cebrià | CASIX 1
+
 # 📋 Evidències
 
 ## - Fes un esquema de l'ordre d'arrencada amb BIOS/UEFI sense TPM i amb TPM.
 ## - Fes fotos de les diferents parts del procés d'arrencada al teu ordinador (que no tingui TPM, és a dir, el del taller) i explica en què consisteix cada part:
 ###  1. En el cas de MBR, cal explicar en què es diferencia de GPT.
 ###  2. Comprova si el teu ordinador portàtil té UEFI o BIOS i fes el mateix amb l'ordinador del taller que tens assignat.
+
+---
 
 # ⚙️ Configuració de BIOS/UEFI
 
