@@ -11,5 +11,5 @@
 * [Implantació de Sistemes Operatius](<Implantació de Sistemes Operatius/README.md>)
   * [Preparació de la Màquina Virtual](<Implantació de Sistemes Operatius/Preparació de la Màquina Virtual/README.md>)
     * 
-  * [Usuaris, perfils i seguretat del sistema]
+  * [Usuaris, perfils i seguretat del sistema](<Implantació de Sistemes Operatius/Usuaris, perfils i seguretat del sistema>)
     * [Usuaris, perfils i seguretat del sistema.md](<Implantació de Sistemes Operatius/Usuaris, perfils i seguretat del sistema/Usuaris, perfils i seguretat del sistema.md>)  
