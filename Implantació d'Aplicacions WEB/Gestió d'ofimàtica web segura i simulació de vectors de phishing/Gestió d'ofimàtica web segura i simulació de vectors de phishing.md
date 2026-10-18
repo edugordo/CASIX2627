@@ -38,7 +38,9 @@ EXIT;
 ```
 
 ![Imatge3](Captures/3.png)
+
 ![Imatge4](Captures/4.png)
+
 ![Imatge5](Captures/5.png)
 
 ### 2. Instal·lar les extensions de PHP
@@ -62,9 +64,13 @@ sudo chmod -R 755 /var/www/html/nextcloud
 ```
 
 ![Imatge7](Captures/7.png)
+
 ![Imatge8](Captures/8.png)
+
 ![Imatge9](Captures/9.png)
+
 ![Imatge10](Captures/10.png)
+
 ![Imatge11](Captures/11.png)
 
 ### 4. Comprovar els permisos de la base de dades
