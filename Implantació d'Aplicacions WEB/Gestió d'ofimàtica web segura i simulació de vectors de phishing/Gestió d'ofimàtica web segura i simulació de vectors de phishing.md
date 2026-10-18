@@ -168,27 +168,6 @@ Cal identificar:
 
 ---
 
-## 🚀 Evidències addicionals (opcionals)
-
-### 1. Autenticació multifactor (2FA/MFA)
-Activar un segon factor d'autenticació, com ara TOTP, per reforçar la protecció dels comptes.
-
-### 2. Redirecció automàtica a HTTPS
-Configurar Apache perquè les peticions HTTP es redirigeixin a HTTPS.
-
-### 3. Protecció contra força bruta
-Configurar els mecanismes de protecció d'inicis de sessió fallits i les polítiques de contrasenyes de Nextcloud.
-
-### 4. Pla de resposta a incidents
-1. Identificar l'accés sospitós.
-2. Revocar les sessions compromeses.
-3. Canviar la contrasenya afectada.
-4. Revisar els logs per detectar accessos o modificacions no autoritzades.
-
----
-
-## ✅ Conclusions
-
 Aquesta pràctica permet desplegar una suite d'ofimàtica web i aplicar mesures bàsiques de ciberseguretat. El mínim privilegi a MariaDB, el xifratge HTTPS, les capçaleres de seguretat i l'anàlisi dels logs ajuden a reduir els riscos i a respondre davant possibles incidents.
 
 **Important:** totes les simulacions s'han de realitzar en un entorn de proves autoritzat i aïllat.
