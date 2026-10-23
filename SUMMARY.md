@@ -16,7 +16,7 @@
     * 
   * [Usuaris, perfils i seguretat del sistema](<Implantació de Sistemes Operatius/Usuaris, perfils i seguretat del sistema>)
     * [Usuaris, perfils i seguretat del sistema.md](<Implantació de Sistemes Operatius/Usuaris, perfils i seguretat del sistema/Usuaris, perfils i seguretat del sistema.md>)
-  * [Ciberseguretat i Hacking Ètic](<Ciberseguretat i Hacking Ètic/REAMDE.md>)
+  * [Ciberseguretat i Hacking Ètic](<Ciberseguretat i Hacking Ètic>)
     * [Anàlisi Forense](<Ciberseguretat i Hacking Ètic/Anàlisi Forense/AnàlisiForense.md>)
     
   * 
