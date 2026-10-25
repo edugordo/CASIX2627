@@ -9,6 +9,8 @@
     * [ArquitecturaPC](<Fonaments de Maquinari/ArquitecturaPC/ArquitecturaPC.md>)
   * [Seguretat en l'Arrencada](<Fonaments de Maquinari/Seguretat en l'arrencada/README.md>)
     * [Seguretat en l'Arrencada](<Fonaments de Maquinari/Seguretat en l'arrencada/seguretatarrencada.md>)
+  * [Instal·lació de Maquinàri](<Fonaments de Maquinari/Instal·lació de Programari/README.md>)
+    * [Instal·lació de Maquinàri](<Fonaments de Maquinari/Instal·lació de Programari/Instalaciodemaquinari.md>)
 
 ---
 
