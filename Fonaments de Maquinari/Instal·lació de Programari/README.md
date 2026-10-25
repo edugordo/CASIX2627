@@ -1,4 +1,4 @@
-# 💿 Instal·lació de programari de propòsit general i clonació de sistemes
+# 💿 [Instal·lació de programari de propòsit general i clonació de sistemes](Instalaciodemaquinari.md)
 
 **RA2. Instal·la programari de propòsit general avaluant-ne les característiques i els entorns d'aplicació.**
 
