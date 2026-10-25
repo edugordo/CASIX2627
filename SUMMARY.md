@@ -29,5 +29,5 @@
 ---
 
 * [Ciberseguretat i Hacking Ètic](<Ciberseguretat i Hacking Ètic>)
-  * [Anàlisi Forense](<Ciberseguretat i Hacking Ètic/Anàlisi Forense/REAMDE.md>)
-  * 
+  * [Anàlisi Forense](<Ciberseguretat i Hacking Ètic/Anàlisi Forense/README.md>)
+    * [Anàlisi Forense](<Ciberseguretat i Hacking Ètic/Anàlisi Forense/AnàlisiForense.md>)
