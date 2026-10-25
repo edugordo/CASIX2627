@@ -23,7 +23,7 @@ Per garantir un rendiment òptim durant les tasques d'anàlisi de seguretat, ges
 * **Disc Dur:** 40 GB (Dynamic Allocation / VDI)
 * **Xarxa:** Mode NAT (accés a Internet per a actualitzacions i repositoris)
 
-![Configuració de la VM](Captures/1.png)
+![Configuració de la VM](Captures/21.png)
 *Captura de la configuració de la màquina virtual en l'hipervisor.*
 
 ---
@@ -36,7 +36,7 @@ Abans de procedir amb l'auditoria i la instal·lació de programari nou, s'han c
 sudo apt update && sudo apt upgrade -y
 ```
 
-![Actualització de repositoris](Captures/2.png)
+![Actualització de repositoris](Captures/1.png)
 *Execució de l'actualització del sistema via terminal.*
 
 ---
@@ -57,7 +57,7 @@ dpkg-query -W -f='${Package};${Version};${Status}\n' > inventari_paquets.csv
 apt list --installed > inventari_apt.txt
 ```
 
-![Llista de paquets](Captures/3.png)
+![Llista de paquets](Captures/2.png)
 *Exemple de la sortida de la comanda dpkg-query.*
 
 ### 3.2. Serveis Actius en Segon Pla
@@ -68,7 +68,7 @@ S'han identificat els serveis que s'estan executant actualment en el sistema mit
 systemctl list-units --type=service --state=running > serveis_actius.txt
 ```
 
-![Serveis actius](Captures/4.png)
+![Serveis actius](Captures/3.png)
 *Llista de serveis en segon pla actius.*
 
 ### 3.3. Eines Específiques i Executables Locals
@@ -79,7 +79,7 @@ S'ha comprovat la presència d'executables d'administració o eines preinstal·l
 ls -la /usr/local/bin /opt > eines_locals.txt
 ```
 
-![Directoris locals i opt](Captures/5.png)
+![Directoris locals i opt](Captures/4.png)
 *Contingut dels directoris d'administració /usr/local/bin i /opt.*
 
 ---
@@ -97,6 +97,21 @@ S'han descarregat i instal·lat les eines requerides per complir amb les especif
 | **Gestió d'Imatges i Particions** | `GParted` & `dd` | Gestió de particions i eines per a clonació de disc a baix nivell. | `sudo apt install gparted -y` |
 
 ![Instal·lació de programari](Captures/6.png)
+
+![Instal·lació de programari](Captures/7.png)
+
+![Instal·lació de programari](Captures/8.png)
+
+![Instal·lació de programari](Captures/9.png)
+
+![Instal·lació de programari](Captures/10.png)
+
+![Instal·lació de programari](Captures/11.png)
+
+![Instal·lació de programari](Captures/12.png)
+
+![Instal·lació de programari](Captures/13.png)
+
 *Procés d'instal·lació de paquets requerits.*
 
 ---
@@ -109,7 +124,6 @@ S'ha verificat el funcionament de cadascuna de les eines instal·lades:
 2. **Midnight Commander:** S'ha comprovat la navegació i operacions de fitxers a través de la interfície `mc`.
 3. **Stacer / BleachBit:** S'ha executat una neteja inicial de la memòria cau del sistema i s'ha validat la monitorització de CPU/RAM.
 
-![Escaneig amb ClamAV](Captures/7.png)
 *Execució de l'antivirus i verificació de funcionament.*
 
 ---
