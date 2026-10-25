@@ -16,11 +16,17 @@ Inicia Kali, identifica el disc nou amb `lsblk`, crea-hi una partició i formata
 - `resultats/`
 
 ![Imatge2](Captures/2.png)
+
 ![Imatge3](Captures/3.png)
+
 ![Imatge4](Captures/4.png)
+
 ![Imatge5](Captures/5.png)
+
 ![Imatge6](Captures/6.png)
+
 ![Imatge7](Captures/7.png)
+
 ![Imatge8](Captures/8.png)
 
 ---
