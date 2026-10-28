@@ -1,20 +1,11 @@
+
 <!-- ==================== CABECERA ==================== -->
 
-<h1 align="center">MALWARE &amp; SANDBOXING</h1>
-
 <p align="center">
-  <strong>K-SIX SOLUTIONS | CYBERSECURITY LAB</strong>
+  <img src="./assets/header.svg"
+       alt="Malware and Sandboxing Lab"
+       width="100%">
 </p>
-
-<p align="center">
-  ANALYZE · DETECT · PROTECT
-</p>
-
-<p align="center">
-  <strong>NAHUEL G · EDU G · MARC J · ALEXIS T</strong>
-</p>
-
-<hr>
 
 ---
 
