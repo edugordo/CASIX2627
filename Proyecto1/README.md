@@ -1,124 +1,132 @@
 
-# 🛡️ Malware & Sandboxing Lab
+<!-- ==================== CABECERA ==================== -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CYBERSECURITY-MALWARE%20ANALYSIS-00D4AA?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Cybersecurity"/>
-  <img src="https://img.shields.io/badge/PROJECT-K--SIX%20SOLUTIONS-101820?style=for-the-badge&logo=target&logoColor=00D4AA" alt="K-SIX Solutions"/>
-  <img src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-orange?style=for-the-badge" alt="Project Status"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,50:075985,100:00D4AA&height=220&section=header&text=MALWARE%20%26%20SANDBOXING&fontSize=34&fontColor=FFFFFF&fontAlignY=35&animation=fadeIn&desc=K-SIX%20SOLUTIONS%20%7C%20CYBERSECURITY%20LAB&descSize=15&descAlignY=55" width="100%" alt="Malware and Sandboxing Lab"/>
 </p>
 
 <p align="center">
-  <strong>Disseny i implementació d'un laboratori controlat d'anàlisi de malware, monitoratge de sistemes i ciberseguretat.</strong>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=00D4AA&center=true&vCenter=true&width=650&lines=ANALYZE.+DETECT.+PROTECT.;Controlled+Malware+Analysis+Laboratory;Virtualization+%7C+Forensics+%7C+SOC;Security+starts+with+knowledge." alt="Animated project slogan"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Virtualization-Sandbox-00D4AA?style=flat-square" alt="Sandbox"/>
-  <img src="https://img.shields.io/badge/Network-SOC-0078D4?style=flat-square" alt="SOC"/>
-  <img src="https://img.shields.io/badge/Database-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/Focus-Forensics-8A2BE2?style=flat-square" alt="Forensics"/>
-  <img src="https://img.shields.io/badge/Approach-Secure%20by%20Design-00D4AA?style=flat-square" alt="Secure by Design"/>
+  <img src="https://img.shields.io/badge/PROJECT-CYBERSECURITY-0B1020?style=for-the-badge&labelColor=075985" alt="Cybersecurity"/>
+  <img src="https://img.shields.io/badge/ENVIRONMENT-SANDBOX-0B1020?style=for-the-badge&labelColor=008F76" alt="Sandbox"/>
+  <img src="https://img.shields.io/badge/FOCUS-DIGITAL%20FORENSICS-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Digital forensics"/>
+</p>
+
+<p align="center">
+  <strong>NAHUEL G · EDU G · MARC J · ALEXIS T</strong>
 </p>
 
 ---
 
-## 📌 Índex
+<!-- ==================== INDICE VISUAL ==================== -->
 
-- [🎯 Sobre el projecte](#-sobre-el-projecte)
-- [🏢 Context i objectius](#-context-i-objectius)
-- [🧪 Arquitectura del laboratori](#-arquitectura-del-laboratori)
-- [⚙️ Àrees de treball](#️-àrees-de-treball)
-- [🚩 Reptes del projecte](#-reptes-del-projecte)
-- [🛠️ Tecnologies i eines](#️-tecnologies-i-eines)
-- [🔐 Seguretat i prevenció](#-seguretat-i-prevenció)
-- [📦 Lliurables](#-lliurables)
-- [👥 Equip de treball](#-equip-de-treball)
-- [📚 Competències treballades](#-competències-treballades)
-- [🌱 Sostenibilitat](#-sostenibilitat)
-- [📈 Seguiment del projecte](#-seguiment-del-projecte)
+<h2 align="center">🧭 EXPLORAR EL PROJECTE</h2>
 
----
+<p align="center">
+  <sub>Navega por las diferentes áreas del laboratorio</sub>
+</p>
 
-## 🎯 Sobre el projecte
+<p align="center">
+  <a href="#sobre-el-projecte"><img src="https://img.shields.io/badge/01-SOBRE_EL_PROJECTE-0B1020?style=for-the-badge&labelColor=075985" alt="Sobre el projecte"/></a>
+  <a href="#objectius"><img src="https://img.shields.io/badge/02-OBJECTIUS-0B1020?style=for-the-badge&labelColor=075985" alt="Objectius"/></a>
+  <a href="#arquitectura"><img src="https://img.shields.io/badge/03-ARQUITECTURA-0B1020?style=for-the-badge&labelColor=075985" alt="Arquitectura"/></a>
+</p>
 
-El projecte **Malware i Sandboxing** consisteix a dissenyar i implementar un laboratori de ciberseguretat per estudiar el comportament de programes maliciosos en un entorn controlat, aïllat i recuperable.
+<p align="center">
+  <a href="#arees-de-treball"><img src="https://img.shields.io/badge/04-ÀREES_DE_TREBALL-0B1020?style=for-the-badge&labelColor=008F76" alt="Àrees de treball"/></a>
+  <a href="#reptes"><img src="https://img.shields.io/badge/05-REPTES-0B1020?style=for-the-badge&labelColor=008F76" alt="Reptes"/></a>
+  <a href="#tecnologies"><img src="https://img.shields.io/badge/06-TECNOLOGIES-0B1020?style=for-the-badge&labelColor=008F76" alt="Tecnologies"/></a>
+</p>
 
-El laboratori permetrà simular infraestructures informàtiques, monitorar sistemes, analitzar amenaces i documentar els resultats sense posar en risc els equips ni les xarxes reals.
+<p align="center">
+  <a href="#seguretat"><img src="https://img.shields.io/badge/07-SEGURETAT-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Seguretat"/></a>
+  <a href="#lliurables"><img src="https://img.shields.io/badge/08-LLIURABLES-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Lliurables"/></a>
+  <a href="#equip"><img src="https://img.shields.io/badge/09-EQUIP-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Equip"/></a>
+</p>
 
-> 💡 **Objectiu principal:** construir un entorn de pràctiques que permeti investigar amenaces digitals, entendre'n el comportament i aplicar tècniques de prevenció, detecció i anàlisi forense.
-
-### 📊 Fitxa del projecte
-
-| Característica | Descripció |
-|---|---|
-| Projecte | Malware i Sandboxing |
-| Organització fictícia | K-SIX Solutions |
-| Àmbit | Ciberseguretat i administració de sistemes |
-| Durada estimada | 168 hores |
-| Dificultat | Mitjana |
-| Tipus de treball | Projecte tècnic en equip |
-| Estat | En desenvolupament |
-| Revisió de l'enunciat | Octubre de 2026 |
+<p align="center">
+  <a href="#competencies"><img src="https://img.shields.io/badge/10-COMPETÈNCIES-0B1020?style=for-the-badge&labelColor=334155" alt="Competències"/></a>
+  <a href="#sostenibilitat"><img src="https://img.shields.io/badge/11-SOSTENIBILITAT-0B1020?style=for-the-badge&labelColor=334155" alt="Sostenibilitat"/></a>
+  <a href="#seguiment"><img src="https://img.shields.io/badge/12-SEGUIMENT-0B1020?style=for-the-badge&labelColor=334155" alt="Seguiment"/></a>
+</p>
 
 ---
 
-## 🏢 Context i objectius
+<a id="sobre-el-projecte"></a>
 
-K-SIX Solutions necessita un laboratori on formar tècnics de ciberseguretat i investigar comportaments maliciosos mitjançant proves controlades.
+<h2 align="center">🎯 SOBRE EL PROJECTE</h2>
 
-### Objectius principals
+<p align="center">
+  El projecte <strong>Malware i Sandboxing</strong> consisteix a dissenyar i implementar un laboratori de ciberseguretat per estudiar el comportament de programes maliciosos en un entorn controlat, aïllat i recuperable.
+</p>
+
+<p align="center">
+  L'objectiu és simular infraestructures informàtiques, monitorar sistemes, analitzar amenaces i documentar els resultats sense posar en risc els equips ni les xarxes reals.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/GOAL-ANALYZE%20%7C%20DETECT%20%7C%20PROTECT-0B1020?style=for-the-badge&labelColor=00A88F" alt="Analyze Detect Protect"/>
+</p>
+
+<p align="center">
+  <strong>📊 FITXA DEL PROJECTE</strong>
+</p>
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-### 🖥️ Infraestructura
-
-- Crear màquines virtuals operatives.
-- Preparar entorns recuperables.
-- Dissenyar una xarxa de laboratori.
-- Simular sistemes i serveis empresarials.
-
-</td>
-<td width="50%" valign="top">
-
-### 🦠 Anàlisi de malware
-
-- Observar el comportament de les amenaces.
-- Monitorar canvis al sistema.
-- Registrar indicadors i evidències.
-- Realitzar anàlisis forenses bàsiques.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌐 Aplicacions web
-
-- Estudiar pàgines vulnerables.
-- Analitzar tècniques de phishing.
-- Desenvolupar una intranet de proves.
-- Aplicar mesures de hardening web.
-
-</td>
-<td width="50%" valign="top">
-
-### 🗄️ Dades i monitoratge
-
-- Instal·lar i configurar una base de dades.
-- Definir usuaris, rols i privilegis.
-- Emmagatzemar els resultats de les proves.
-- Organitzar un SOC local.
-
-</td>
-</tr>
+  <tr><td align="center"><strong>Àmbit</strong></td><td align="center">Ciberseguretat i sistemes</td></tr>
+  <tr><td align="center"><strong>Organització fictícia</strong></td><td align="center">K-SIX Solutions</td></tr>
+  <tr><td align="center"><strong>Durada estimada</strong></td><td align="center">168 hores</td></tr>
+  <tr><td align="center"><strong>Dificultat</strong></td><td align="center">Mitjana</td></tr>
+  <tr><td align="center"><strong>Modalitat</strong></td><td align="center">Projecte tècnic en equip</td></tr>
+  <tr><td align="center"><strong>Estat</strong></td><td align="center">En desenvolupament</td></tr>
+  <tr><td align="center"><strong>Revisió de l'enunciat</strong></td><td align="center">Octubre de 2026</td></tr>
 </table>
 
 ---
 
-## 🧪 Arquitectura del laboratori
+<a id="objectius"></a>
 
-L'arquitectura proposada es basa en la separació dels sistemes de prova, la supervisió de l'activitat i l'emmagatzematge de les evidències.
+<h2 align="center">🏢 CONTEXT I OBJECTIUS</h2>
+
+<p align="center">
+  K-SIX Solutions necessita un laboratori on formar tècnics de ciberseguretat i investigar comportaments maliciosos mitjançant proves controlades.
+</p>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3>🖥️ Infraestructura</h3>
+      <p>Creació de màquines virtuals, entorns recuperables i xarxes de laboratori.</p>
+    </td>
+    <td align="center" width="50%">
+      <h3>🦠 Anàlisi de malware</h3>
+      <p>Observació del comportament de les amenaces, monitoratge i anàlisi forense.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h3>🌐 Seguretat web</h3>
+      <p>Estudi del phishing, pàgines vulnerables i mesures de hardening.</p>
+    </td>
+    <td align="center" width="50%">
+      <h3>🗄️ Dades i SOC</h3>
+      <p>Registre de resultats, administració de bases de dades i monitoratge.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+<a id="arquitectura"></a>
+
+<h2 align="center">🧪 ARQUITECTURA DEL LABORATORI</h2>
+
+<p align="center">
+  Disseny conceptual de la infraestructura d'anàlisi.
+</p>
 
 ```mermaid
 flowchart TB
@@ -127,235 +135,296 @@ flowchart TB
     B --> D["🖥️ Entorn de virtualització"]
     D --> E["💻 Màquina d'anàlisi"]
     D --> F["🧪 Màquina víctima"]
-    D --> G["🌐 Xarxa de laboratori aïllada"]
+    D --> G["🌐 Xarxa aïllada"]
     E --> H["🔎 Anàlisi de comportament"]
     F --> H
     H --> I["🗄️ Base de dades i evidències"]
     C --> I
 ```
 
-### Components principals
+<p align="center">
+  <img src="https://img.shields.io/badge/01-VIRTUALITZACIÓ-0B1020?style=flat-square&labelColor=075985" alt="Virtualització"/>
+  <img src="https://img.shields.io/badge/02-SANDBOXING-0B1020?style=flat-square&labelColor=008F76" alt="Sandboxing"/>
+  <img src="https://img.shields.io/badge/03-MONITORATGE-0B1020?style=flat-square&labelColor=6D28D9" alt="Monitoratge"/>
+  <img src="https://img.shields.io/badge/04-ANÀLISI_FORENSE-0B1020?style=flat-square&labelColor=334155" alt="Anàlisi forense"/>
+</p>
 
-- **Virtualització:** creació de màquines independents i recuperables.
-- **Sandboxing:** execució de proves dins d'un entorn controlat.
-- **Xarxa aïllada:** separació del laboratori respecte de les xarxes reals.
-- **Monitoratge:** observació dels processos, serveis, connexions i canvis.
-- **Base de dades:** registre estructurat dels experiments.
-- **Anàlisi forense:** recollida i estudi d'evidències.
-
-> ⚠️ Les proves amb malware s'han de realitzar únicament amb autorització, mostres controlades i mesures d'aïllament adequades. El diagrama representa una arquitectura objectiu, no una infraestructura ja validada.
+<p align="center">
+  <strong>Nota de seguretat:</strong> el diagrama representa l'arquitectura objectiu, no una infraestructura ja validada. Les proves amb malware requereixen autorització i aïllament adequat.
+</p>
 
 ---
 
-## ⚙️ Àrees de treball
+<a id="arees-de-treball"></a>
+
+<h2 align="center">⚙️ ÀREES DE TREBALL</h2>
 
 <details>
 <summary><strong>01 · Virtualització i sistemes operatius</strong></summary>
-
-Preparació dels sistemes operatius, configuració de les màquines virtuals, instal·lació del programari i creació de punts de recuperació.
-
-**Resultat esperat:** entorns de proves funcionals, documentats i recuperables.
-
+<br/>
+Preparació dels sistemes operatius, configuració de màquines virtuals, instal·lació de programari i creació de punts de recuperació.
+<br/><br/>
+<strong>Objectiu:</strong> disposar d'entorns funcionals, documentats i recuperables.
 </details>
 
 <details>
 <summary><strong>02 · Xarxes i infraestructura del SOC</strong></summary>
-
+<br/>
 Disseny de la LAN del laboratori, configuració de la connectivitat i separació dels entorns d'anàlisi.
-
-**Resultat esperat:** una xarxa documentada amb una arquitectura segura i controlada.
-
+<br/><br/>
+<strong>Objectiu:</strong> construir una infraestructura controlada i documentada.
 </details>
 
 <details>
 <summary><strong>03 · Administració de bases de dades</strong></summary>
-
-Instal·lació del sistema gestor, disseny de les taules, emmagatzematge dels resultats i configuració dels permisos d'accés.
-
-**Resultat esperat:** una base de dades documentada per consultar i gestionar les proves realitzades.
-
+<br/>
+Instal·lació del sistema gestor, disseny de taules, emmagatzematge dels resultats i configuració dels permisos d'accés.
+<br/><br/>
+<strong>Objectiu:</strong> gestionar les dades de les proves de manera estructurada.
 </details>
 
 <details>
 <summary><strong>04 · Phishing i seguretat web</strong></summary>
-
-Estudi dels elements que poden generar confiança digital, creació d'una pàgina de proves i anàlisi de les vulnerabilitats web en un entorn autoritzat.
-
-**Resultat esperat:** una aplicació de laboratori documentada i un conjunt de mesures de protecció.
-
+<br/>
+Estudi del phishing, creació d'una pàgina de proves i anàlisi de vulnerabilitats web en un entorn autoritzat.
+<br/><br/>
+<strong>Objectiu:</strong> entendre els riscos i documentar mesures de protecció.
 </details>
 
 <details>
 <summary><strong>05 · Simulació d'atacs i anàlisi forense</strong></summary>
-
-Observació dels esdeveniments, identificació dels canvis produïts als sistemes i documentació de les evidències obtingudes.
-
-**Resultat esperat:** informes d'anàlisi que permetin explicar què ha passat i quins indicadors s'han identificat.
-
+<br/>
+Observació d'esdeveniments, identificació de canvis i documentació de les evidències obtingudes.
+<br/><br/>
+<strong>Objectiu:</strong> elaborar informes que expliquin els resultats de les proves.
 </details>
 
 <details>
 <summary><strong>06 · Hardening i Secure by Design</strong></summary>
-
-Revisió de la configuració dels sistemes i aplicacions, reducció de la superfície d'atac i aplicació de mesures preventives des de la fase de disseny.
-
-**Resultat esperat:** una infraestructura amb controls de seguretat documentats.
-
+<br/>
+Revisió de configuracions, reducció de la superfície d'atac i incorporació de mesures preventives des del disseny.
+<br/><br/>
+<strong>Objectiu:</strong> millorar la seguretat de sistemes i aplicacions.
 </details>
 
 ---
 
-## 🚩 Reptes del projecte
+<a id="reptes"></a>
 
-| # | Repte | Finalitat |
-|---:|---|---|
-| 01 | Preparació del sandbox | Crear un entorn controlat i recuperable. |
-| 02 | LAN del SOC corporatiu | Planificar i configurar la xarxa del laboratori. |
-| 03 | Bases de dades | Administrar les dades, els usuaris i els privilegis. |
-| 04 | Phishing: confiança digital | Estudiar els mecanismes del phishing en un entorn de proves. |
-| 05 | Clickbait a la intranet i hardening web | Analitzar continguts web i aplicar mesures de protecció. |
-| 06 | Simulació d'un atac i anàlisi forense | Observar els canvis i documentar les evidències. |
-| 07 | Challenge: Secure by Design | Incorporar la seguretat des del disseny. |
-| 08 | Disseny d'un laboratori segur | Integrar els components en una infraestructura coherent. |
+<h2 align="center">🚩 REPTES DEL PROJECTE</h2>
+
+<table>
+  <tr>
+    <td align="center"><strong>01</strong></td>
+    <td><strong>Preparació del sandbox</strong><br/><sub>Crear un entorn controlat i recuperable.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>02</strong></td>
+    <td><strong>LAN del SOC corporatiu</strong><br/><sub>Planificar la xarxa del laboratori.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>03</strong></td>
+    <td><strong>Bases de dades</strong><br/><sub>Administrar dades, usuaris i privilegis.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>04</strong></td>
+    <td><strong>Phishing: confiança digital</strong><br/><sub>Estudiar el phishing en un entorn de proves.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>05</strong></td>
+    <td><strong>Clickbait i hardening web</strong><br/><sub>Analitzar continguts web i aplicar proteccions.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>06</strong></td>
+    <td><strong>Simulació d'atacs i anàlisi forense</strong><br/><sub>Documentar canvis i evidències.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>07</strong></td>
+    <td><strong>Challenge: Secure by Design</strong><br/><sub>Incorporar seguretat des del disseny.</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>08</strong></td>
+    <td><strong>Disseny d'un laboratori segur</strong><br/><sub>Integrar els components de la infraestructura.</sub></td>
+  </tr>
+</table>
 
 ---
 
-## 🛠️ Tecnologies i eines
+<a id="tecnologies"></a>
 
-Les eines concretes es definiran segons els requeriments i les necessitats del laboratori.
+<h2 align="center">🛠️ TECNOLOGIES I EINES</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/Mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white" alt="Mermaid"/>
+  <img src="https://skillicons.dev/icons?i=linux,bash,mysql,html,css,git,github,vscode&theme=dark" alt="Tecnologies del projecte"/>
 </p>
 
-| Àrea | Eines o tecnologies de referència |
-|---|---|
-| Virtualització | VirtualBox o una alternativa compatible |
-| Sistemes operatius | Linux i sistemes convidats de laboratori |
-| Xarxes | Adaptadors virtuals, LAN i segmentació |
-| Bases de dades | SQL i un sistema gestor compatible |
-| Aplicacions web | HTML, CSS i serveis web |
-| Anàlisi de seguretat | Eines de monitoratge i anàlisi forense |
-| Documentació | Markdown, Git i GitHub |
-
-> ℹ️ Els elements anteriors són tecnologies de referència. No impliquen que totes estiguin instal·lades o configurades.
-
----
-
-## 🔐 Seguretat i prevenció
-
-La seguretat és un requisit fonamental del laboratori.
-
-- Aïllar els entorns de proves de les xarxes de producció.
-- Utilitzar màquines virtuals recuperables i còpies de seguretat.
-- Limitar els permisos d'accés segons les responsabilitats.
-- Registrar les proves i conservar les evidències.
-- Aplicar procediments de prevenció de riscos laborals.
-- Respectar la legislació, la privacitat i els principis del hacking ètic.
-
-> **Principi bàsic:** cap prova ha de comprometre sistemes, dades o persones alienes al laboratori.
-
----
-
-## 📦 Lliurables
-
-### 📄 01 · Documentació tècnica
-
-Documentació del procés de preparació del laboratori, les proves controlades, el monitoratge i l'anàlisi forense.
-
-### 🗄️ 02 · Base de dades
-
-Estructura de les dades de les proves, informació capturada i documentació del sistema gestor.
-
-### 🌐 03 · Disseny de la xarxa
-
-Esquema de la xarxa del laboratori empresarial, els seus components i la seva organització.
-
----
-
-## 👥 Equip de treball
+<p align="center">
+  <img src="https://img.shields.io/badge/VIRTUALIZATION-VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox"/>
+  <img src="https://img.shields.io/badge/NETWORK-LAN-075985?style=for-the-badge" alt="LAN"/>
+  <img src="https://img.shields.io/badge/DATABASE-SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/WEB-HTML%20%2F%20CSS-E34F26?style=for-the-badge" alt="HTML CSS"/>
+</p>
 
 <p align="center">
-  <strong>Equip responsable del desenvolupament del projecte</strong>
+  <sub>Tecnologies de referència; la seva inclusió no implica que totes estiguin instal·lades o configurades.</sub>
+</p>
+
+---
+
+<a id="seguretat"></a>
+
+<h2 align="center">🔐 SEGURETAT I PREVENCIÓ</h2>
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>🔒 Aïllament</h3>
+      <p>Separació dels entorns de proves respecte de les xarxes de producció.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>💾 Recuperació</h3>
+      <p>Màquines virtuals recuperables i còpies de seguretat.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>📋 Evidències</h3>
+      <p>Registre de proves i documentació dels resultats.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ETHICAL%20HACKING-AUTHORIZED%20TESTING-0B1020?style=for-the-badge&labelColor=008F76" alt="Ethical hacking"/>
+</p>
+
+<p align="center">
+  <strong>Cap prova ha de comprometre sistemes, dades o persones alienes al laboratori.</strong>
+</p>
+
+---
+
+<a id="lliurables"></a>
+
+<h2 align="center">📦 LLIURABLES</h2>
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>📄</h3>
+      <strong>Documentació tècnica</strong>
+      <p><sub>Preparació, proves controlades, monitoratge i anàlisi forense.</sub></p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🗄️</h3>
+      <strong>Base de dades</strong>
+      <p><sub>Informació de les proves, estructura i documentació del sistema gestor.</sub></p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🌐</h3>
+      <strong>Disseny de xarxa</strong>
+      <p><sub>Esquema de la infraestructura i els seus components.</sub></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+<a id="equip"></a>
+
+<h2 align="center">👥 EQUIP DE TREBALL</h2>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2500&pause=800&color=00D4AA&center=true&vCenter=true&width=500&lines=THE+TEAM+BEHIND+THE+LAB;FOUR+MEMBERS.+ONE+MISSION.;LEARN+%7C+ANALYZE+%7C+PROTECT" alt="Team animation"/>
 </p>
 
 <table>
-<tr>
-<td align="center" width="25%">
-
-### 👨‍💻 Nahuel G
-
-<sub>Equip tècnic</sub>
-
-</td>
-<td align="center" width="25%">
-
-### 👨‍💻 Edu G
-
-<sub>Equip tècnic</sub>
-
-</td>
-<td align="center" width="25%">
-
-### 👨‍💻 Marc J
-
-<sub>Equip tècnic</sub>
-
-</td>
-<td align="center" width="25%">
-
-### 👨‍💻 Alexis T
-
-<sub>Equip tècnic</sub>
-
-</td>
-</tr>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/01-NAHUEL_G-0B1020?style=for-the-badge&labelColor=075985" alt="Nahuel G"/>
+      <br/><sub>Equip tècnic</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/02-EDU_G-0B1020?style=for-the-badge&labelColor=075985" alt="Edu G"/>
+      <br/><sub>Equip tècnic</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/03-MARC_J-0B1020?style=for-the-badge&labelColor=075985" alt="Marc J"/>
+      <br/><sub>Equip tècnic</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/04-ALEXIS_T-0B1020?style=for-the-badge&labelColor=075985" alt="Alexis T"/>
+      <br/><sub>Equip tècnic</sub>
+    </td>
+  </tr>
 </table>
 
-La distribució de responsabilitats s'actualitzarà segons l'organització definitiva de l'equip i els reptes assignats.
+<p align="center">
+  <sub>La distribució de responsabilitats s'actualitzarà segons l'organització definitiva de l'equip.</sub>
+</p>
 
 ---
 
-## 📚 Competències treballades
+<a id="competencies"></a>
 
-El projecte integra aprenentatges de diferents mòduls formatius:
+<h2 align="center">📚 COMPETÈNCIES TREBALLADES</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SO-Sistemes%20operatius-075985?style=flat-square" alt="Sistemes operatius"/>
+  <img src="https://img.shields.io/badge/NET-Xarxes-008F76?style=flat-square" alt="Xarxes"/>
+  <img src="https://img.shields.io/badge/DB-Bases%20de%20dades-4479A1?style=flat-square" alt="Bases de dades"/>
+  <img src="https://img.shields.io/badge/WEB-Llenguatges%20de%20marques-E34F26?style=flat-square" alt="Llenguatges web"/>
+  <img src="https://img.shields.io/badge/SEC-Ciberseguretat-6D28D9?style=flat-square" alt="Ciberseguretat"/>
+  <img src="https://img.shields.io/badge/PRL-Prevenció-334155?style=flat-square" alt="Prevenció"/>
+</p>
 
 - **Implantació de sistemes operatius:** instal·lació, configuració i monitoratge.
 - **Planificació i administració de xarxes:** infraestructura i connectivitat.
 - **Fonaments de maquinari:** configuració d'equips i programari.
-- **Gestió de bases de dades:** modelatge i disseny de dades.
+- **Gestió de bases de dades:** modelatge i disseny.
 - **Llenguatges de marques:** estructura i presentació d'informació web.
 - **Administració de sistemes gestors de bases de dades:** configuració i control d'accés.
 - **Ciberseguretat i hacking ètic:** detecció i anàlisi d'amenaces.
 - **Itinerari personal per l'ocupabilitat I:** prevenció de riscos laborals.
 
-L'objectiu és combinar coneixements tècnics, treball en equip, documentació i resolució d'incidències en un context professional.
+---
+
+<a id="sostenibilitat"></a>
+
+<h2 align="center">🌱 SOSTENIBILITAT</h2>
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>♻️</h3>
+      <strong>Reutilització</strong>
+      <p><sub>Aprofitar maquinari compatible.</sub></p>
+    </td>
+    <td align="center" width="33%">
+      <h3>⚡</h3>
+      <strong>Eficiència</strong>
+      <p><sub>Optimitzar recursos mitjançant la virtualització.</sub></p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🛡️</h3>
+      <strong>Responsabilitat</strong>
+      <p><sub>Protegir les dades i aplicar pràctiques ètiques.</sub></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🌱 Sostenibilitat
+<a id="seguiment"></a>
 
-- ♻️ Reutilització de maquinari compatible.
-- ⚡ Ús eficient dels recursos mitjançant la virtualització.
-- 💾 Gestió responsable de l'emmagatzematge i les còpies.
-- 🗑️ Eliminació segura de dades quan sigui necessari.
-- 🛡️ Prevenció de riscos digitals i protecció de la informació.
-- ⚖️ Ús responsable, ètic i legal de les eines de ciberseguretat.
+<h2 align="center">📈 SEGUIMENT DEL PROJECTE</h2>
 
----
-
-## 📈 Seguiment del projecte
-
-L'estat següent és una plantilla inicial de seguiment que s'haurà d'actualitzar a mesura que es completin les activitats.
+<p align="center">
+  <sub>Llista de control inicial. Actualitza les tasques quan es completin.</sub>
+</p>
 
 - [ ] Preparar l'entorn de virtualització.
-- [ ] Configurar i documentar la xarxa del laboratori.
+- [ ] Configurar i documentar la xarxa.
 - [ ] Preparar els sistemes de monitoratge.
-- [ ] Instal·lar i configurar el sistema gestor de bases de dades.
+- [ ] Configurar el sistema gestor de bases de dades.
 - [ ] Desenvolupar l'entorn web de proves.
 - [ ] Documentar les proves controlades.
 - [ ] Elaborar els informes d'anàlisi forense.
@@ -364,15 +433,23 @@ L'estat següent és una plantilla inicial de seguiment que s'haurà d'actualitz
 
 ---
 
+<!-- ==================== PEU ANIMAT ==================== -->
+
 <p align="center">
-  <img src="https://img.shields.io/badge/LEARN-00D4AA?style=for-the-badge" alt="Learn"/>
-  <img src="https://img.shields.io/badge/ANALYZE-0078D4?style=for-the-badge" alt="Analyze"/>
-  <img src="https://img.shields.io/badge/PROTECT-8A2BE2?style=for-the-badge" alt="Protect"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4AA,50:075985,100:0B1020&height=160&section=footer&animation=fadeIn" width="100%" alt="Animated cybersecurity footer"/>
 </p>
 
 <p align="center">
-  <strong>Malware & Sandboxing Lab</strong><br/>
-  <sub>Aprendre a detectar, analitzar i prevenir amenaces en un entorn controlat.</sub><br/><br/>
-  <sub>Projecte acadèmic · K-SIX Solutions · Octubre de 2026</sub>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=00D4AA&center=true&vCenter=true&width=600&lines=LEARN.+ANALYZE.+PROTECT.;MALWARE+%26+SANDBOXING+LAB;BUILT+BY+NAHUEL%2C+EDU%2C+MARC+%26+ALEXIS" alt="Animated footer"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/TEAM-4%20MEMBERS-075985?style=for-the-badge" alt="Team"/>
+  <img src="https://img.shields.io/badge/PROJECT-168%20HOURS-008F76?style=for-the-badge" alt="Duration"/>
+  <img src="https://img.shields.io/badge/FOCUS-CYBERSECURITY-6D28D9?style=for-the-badge" alt="Focus"/>
+</p>
+
+<p align="center">
+  <strong>K-SIX SOLUTIONS</strong><br/>
+  <sub>Projecte acadèmic de ciberseguretat · Octubre de 2026</sub>
+</p>
