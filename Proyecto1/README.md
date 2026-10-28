@@ -135,6 +135,95 @@
 
 ---
 
+<!-- ==================== REPTES I ACTIVITATS ==================== -->
+
+<h2 align="center">📚 REPTES IMPLICATS EN EL PROJECTE</h2>
+
+<p align="center">
+  Activitats i reptes de les diferents assignatures relacionats
+  amb el desenvolupament del laboratori de ciberseguretat.
+</p>
+
+<br>
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center">
+      <a href="ENLLAÇ_REPOSITORI_REPTE_0369_0371">
+        <strong>🖥️ 0369-0371 · Preparació del sandbox</strong>
+      </a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="ENLLAÇ_REPOSITORI_REPTE_0370">
+        <strong>🌐 0370 · Planificació i configuració de la LAN del SOC corporatiu</strong>
+      </a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="ENLLAÇ_REPOSITORI_REPTE_0372_0373_0377">
+        <strong>🛡️ 0372-0373-0377 · Operació Data Shield</strong>
+      </a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="ENLLAÇ_REPOSITORI_REPTE_PHISHING">
+        <strong>🎣 0373 · Phishing: com es guanya la confiança digital?</strong>
+      </a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="ENLLAÇ_REPOSITORI_REPTE_0376">
+        <strong>🏠 0376 · Clickbait a la Intranet Hardening Web</strong>
+      </a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="ENLLAÇ_REPOSITORI_REPTE_C038">
+        <strong>🔎 C038 · Simulació d'un atac i anàlisi forense</strong>
+      </a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="ENLLAÇ_REPOSITORI_CHALLENGE_1">
+        <strong>🔐 Challenge 1 · Secure by Design</strong>
+      </a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="ENLLAÇ_REPOSITORI_REPTE_1709">
+        <strong>⚠️ 1709 · Disseny del Laboratori Segur de Ciberseguretat</strong>
+      </a>
+      <br>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<p align="center">
+  <sub>
+    Cada apartat enllaça amb el repositori on es documenta
+    el desenvolupament i la resolució del repte corresponent.
+  </sub>
+</p>
+
+---
+
 <a id="arquitectura"></a>
 
 <h2 align="center">🧪 ARQUITECTURA DEL LABORATORI</h2>
