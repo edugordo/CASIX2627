@@ -1,26 +1,20 @@
 <!-- ==================== CABECERA ==================== -->
 
+<h1 align="center">MALWARE &amp; SANDBOXING</h1>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0B1020&height=200&section=header&text=MALWARE%20%26%20SANDBOXING&fontSize=34&fontColor=FFFFFF&animation=fadeIn" width="100%" alt="Malware and Sandboxing Lab"/>
+  <strong>K-SIX SOLUTIONS | CYBERSECURITY LAB</strong>
 </p>
 
 <p align="center">
-  <strong>K-SIX SOLUTIONS · CYBERSECURITY LAB</strong>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=00D4AA&center=true&vCenter=true&width=650&lines=ANALYZE.+DETECT.+PROTECT.;Controlled+Malware+Analysis+Laboratory;Virtualization+%7C+Forensics+%7C+SOC;Security+starts+with+knowledge." alt="Animated project slogan"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PROJECT-CYBERSECURITY-0B1020?style=for-the-badge&labelColor=075985" alt="Cybersecurity"/>
-  <img src="https://img.shields.io/badge/ENVIRONMENT-SANDBOX-0B1020?style=for-the-badge&labelColor=008F76" alt="Sandbox"/>
-  <img src="https://img.shields.io/badge/FOCUS-DIGITAL%20FORENSICS-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Digital forensics"/>
+  ANALYZE · DETECT · PROTECT
 </p>
 
 <p align="center">
   <strong>NAHUEL G · EDU G · MARC J · ALEXIS T</strong>
 </p>
+
+<hr>
 
 ---
 
