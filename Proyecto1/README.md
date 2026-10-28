@@ -26,39 +26,64 @@
 
 <!-- ==================== INDICE VISUAL ==================== -->
 
+
 <h2 align="center">🧭 EXPLORAR EL PROJECTE</h2>
 
 <p align="center">
   <sub>Navega por las diferentes áreas del laboratorio</sub>
 </p>
 
-<p align="center">
-  <a href="#sobre-el-projecte"><img src="https://img.shields.io/badge/01-SOBRE_EL_PROJECTE-0B1020?style=for-the-badge&labelColor=075985" alt="Sobre el projecte"/></a>
-  <a href="#objectius"><img src="https://img.shields.io/badge/02-OBJECTIUS-0B1020?style=for-the-badge&labelColor=075985" alt="Objectius"/></a>
-  <a href="#arquitectura"><img src="https://img.shields.io/badge/03-ARQUITECTURA-0B1020?style=for-the-badge&labelColor=075985" alt="Arquitectura"/></a>
-</p>
-
-<p align="center">
-  <a href="#arees-de-treball"><img src="https://img.shields.io/badge/04-ÀREES_DE_TREBALL-0B1020?style=for-the-badge&labelColor=008F76" alt="Àrees de treball"/></a>
-  <a href="#reptes"><img src="https://img.shields.io/badge/05-REPTES-0B1020?style=for-the-badge&labelColor=008F76" alt="Reptes"/></a>
-  <a href="#tecnologies"><img src="https://img.shields.io/badge/06-TECNOLOGIES-0B1020?style=for-the-badge&labelColor=008F76" alt="Tecnologies"/></a>
-</p>
-
-<p align="center">
-  <a href="#seguretat"><img src="https://img.shields.io/badge/07-SEGURETAT-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Seguretat"/></a>
-  <a href="#lliurables"><img src="https://img.shields.io/badge/08-LLIURABLES-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Lliurables"/></a>
-  <a href="#equip"><img src="https://img.shields.io/badge/09-EQUIP-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Equip"/></a>
-</p>
-
-<p align="center">
-  <a href="#competencies"><img src="https://img.shields.io/badge/10-COMPETÈNCIES-0B1020?style=for-the-badge&labelColor=334155" alt="Competències"/></a>
-  <a href="#sostenibilitat"><img src="https://img.shields.io/badge/11-SOSTENIBILITAT-0B1020?style=for-the-badge&labelColor=334155" alt="Sostenibilitat"/></a>
-  <a href="#seguiment"><img src="https://img.shields.io/badge/12-SEGUIMENT-0B1020?style=for-the-badge&labelColor=334155" alt="Seguiment"/></a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="#sobre-el-projecte"><img src="https://img.shields.io/badge/01-SOBRE_EL_PROJECTE-0B1020?style=for-the-badge&labelColor=075985" alt="Sobre el projecte"/></a>
+    </td>
+    <td align="center">
+      <a href="#objectius"><img src="https://img.shields.io/badge/02-OBJECTIUS-0B1020?style=for-the-badge&labelColor=075985" alt="Objectius"/></a>
+    </td>
+    <td align="center">
+      <a href="#arquitectura"><img src="https://img.shields.io/badge/03-ARQUITECTURA-0B1020?style=for-the-badge&labelColor=075985" alt="Arquitectura"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#arees-de-treball"><img src="https://img.shields.io/badge/04-ÀREES_DE_TREBALL-0B1020?style=for-the-badge&labelColor=008F76" alt="Àrees de treball"/></a>
+    </td>
+    <td align="center">
+      <a href="#reptes"><img src="https://img.shields.io/badge/05-REPTES-0B1020?style=for-the-badge&labelColor=008F76" alt="Reptes"/></a>
+    </td>
+    <td align="center">
+      <a href="#tecnologies"><img src="https://img.shields.io/badge/06-TECNOLOGIES-0B1020?style=for-the-badge&labelColor=008F76" alt="Tecnologies"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#seguretat"><img src="https://img.shields.io/badge/07-SEGURETAT-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Seguretat"/></a>
+    </td>
+    <td align="center">
+      <a href="#lliurables"><img src="https://img.shields.io/badge/08-LLIURABLES-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Lliurables"/></a>
+    </td>
+    <td align="center">
+      <a href="#equip"><img src="https://img.shields.io/badge/09-EQUIP-0B1020?style=for-the-badge&labelColor=6D28D9" alt="Equip"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="#competencies"><img src="https://img.shields.io/badge/10-COMPETÈNCIES-0B1020?style=for-the-badge&labelColor=334155" alt="Competències"/></a>
+    </td>
+    <td align="center">
+      <a href="#sostenibilitat"><img src="https://img.shields.io/badge/11-SOSTENIBILITAT-0B1020?style=for-the-badge&labelColor=334155" alt="Sostenibilitat"/></a>
+    </td>
+    <td align="center">
+      <a href="#seguiment"><img src="https://img.shields.io/badge/12-SEGUIMENT-0B1020?style=for-the-badge&labelColor=334155" alt="Seguiment"/></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
 <a id="sobre-el-projecte"></a>
+
 
 <h2 align="center">🎯 SOBRE EL PROJECTE</h2>
 
