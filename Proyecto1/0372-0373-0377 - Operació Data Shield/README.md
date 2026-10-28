@@ -19,6 +19,12 @@
   <strong>NAHUEL G · EDU G · MARC J · ALEXIS T</strong>
 </p>
 
+<p align="center">
+  <a href="Memoria.md">
+    <img src="https://img.shields.io/badge/📄%20VER%20LA%20MEMORIA-00D4AA?style=for-the-badge&labelColor=0B1020" alt="Ver la memoria del proyecto"/>
+  </a>
+</p>
+
 ---
 
 ## 📑 Índex
