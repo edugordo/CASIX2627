@@ -331,5 +331,7 @@ Això permet que diferents aplicacions consumeixin la mateixa informació indepe
 </p>
 
 <p align="center">
-  <a href="README.md">← Tornar al README principal</a>
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/←%20TORNAR%20AL%20README-075985?style=for-the-badge&labelColor=0B1020" alt="Tornar al README"/>
+  </a>
 </p>
