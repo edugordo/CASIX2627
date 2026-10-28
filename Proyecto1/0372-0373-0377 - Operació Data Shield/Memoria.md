@@ -1,25 +1,17 @@
-<!-- ================================================== -->
-<!--                  K-SIX SOLUTIONS                  -->
-<!-- ================================================== -->
+<!-- ==================== CABECERA ==================== -->
 
 <p align="center">
-  <strong>K-SIX SOLUTIONS</strong>
-</p>
-
-<h1 align="center">🛡️ OPERACIÓ DATA SHIELD</h1>
-
-<p align="center">
-  <strong>INTERCANVI D'INFORMACIÓ AMB SISTEMES EXTERNS</strong>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,50:075985,100:00D4AA&height=220&section=header&text=OPERACI%C3%93%20DATA%20SHIELD&fontSize=34&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn" width="100%" alt="Operació Data Shield"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/XML-DATA%20EXCHANGE-075985?style=for-the-badge&labelColor=0B1020" alt="XML Data Exchange"/>
-  <img src="https://img.shields.io/badge/JSON-DATA%20EXCHANGE-00A88F?style=for-the-badge&labelColor=0B1020" alt="JSON Data Exchange"/>
-  <img src="https://img.shields.io/badge/DATABASE-MYSQL-6D28D9?style=for-the-badge&labelColor=0B1020" alt="MySQL"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=00D4AA&center=true&vCenter=true&width=700&lines=MEM%C3%92RIA+T%C3%88CNICA.;DATABASE+SECURITY.;XML+%7C+JSON+DATA+EXCHANGE.;SECURE.+ANALYZE.+PROTECT." alt="Memòria tècnica del projecte"/>
 </p>
 
 <p align="center">
-  <em>SECURE · ANALYZE · PROTECT</em>
+  <img src="https://img.shields.io/badge/DOCUMENT-MEM%C3%92RIA%20T%C3%88CNICA-0B1020?style=for-the-badge&labelColor=075985" alt="Memòria tècnica"/>
+  <img src="https://img.shields.io/badge/DATABASE-MYSQL-0B1020?style=for-the-badge&labelColor=008F76" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/DATA%20EXCHANGE-XML%20%7C%20JSON-0B1020?style=for-the-badge&labelColor=6D28D9" alt="XML and JSON"/>
 </p>
 
 <p align="center">
@@ -28,7 +20,7 @@
 
 <p align="center">
   <a href="README.md">
-    <img src="https://img.shields.io/badge/←%20TORNAR%20AL%20README-075985?style=for-the-badge&labelColor=0B1020" alt="Tornar al README"/>
+    <img src="https://img.shields.io/badge/←%20TORNAR%20AL%20README-00D4AA?style=for-the-badge&labelColor=0B1020" alt="Tornar al README principal"/>
   </a>
 </p>
 
@@ -314,24 +306,20 @@ Això permet que diferents aplicacions consumeixin la mateixa informació indepe
 
 ---
 
-<!-- ================================================== -->
-<!--                     PEU DE PÀGINA                  -->
-<!-- ================================================== -->
+<!-- ==================== PEU DE PÀGINA ==================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4AA,50:075985,100:0B1020&height=120&section=footer" width="100%" alt="K-SIX Solutions footer"/>
+</p>
 
 <p align="center">
   <strong>K-SIX SOLUTIONS</strong>
 </p>
 
 <p align="center">
-  <em>CYBERSECURITY · DATABASE SECURITY · DATA EXCHANGE</em>
+  <sub>CYBERSECURITY · DATABASE SECURITY · DATA EXCHANGE</sub>
 </p>
 
 <p align="center">
   <sub>0372-0373-0377 · OPERACIÓ DATA SHIELD</sub>
-</p>
-
-<p align="center">
-  <a href="README.md">
-    <img src="https://img.shields.io/badge/←%20TORNAR%20AL%20README-075985?style=for-the-badge&labelColor=0B1020" alt="Tornar al README"/>
-  </a>
 </p>
