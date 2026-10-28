@@ -1,8 +1,11 @@
-
 <!-- ==================== CABECERA ==================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,50:075985,100:00D4AA&height=220&section=header&text=MALWARE%20%26%20SANDBOXING&fontSize=34&fontColor=FFFFFF&fontAlignY=35&animation=fadeIn&desc=K-SIX%20SOLUTIONS%20%7C%20CYBERSECURITY%20LAB&descSize=15&descAlignY=55" width="100%" alt="Malware and Sandboxing Lab"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0B1020&height=200&section=header&text=MALWARE%20%26%20SANDBOXING&fontSize=34&fontColor=FFFFFF&animation=fadeIn" width="100%" alt="Malware and Sandboxing Lab"/>
+</p>
+
+<p align="center">
+  <strong>K-SIX SOLUTIONS · CYBERSECURITY LAB</strong>
 </p>
 
 <p align="center">
@@ -75,7 +78,8 @@
   <strong>📊 FITXA DEL PROJECTE</strong>
 </p>
 
-<table>
+<div align="center">
+<table align="center">
   <tr><td align="center"><strong>Àmbit</strong></td><td align="center">Ciberseguretat i sistemes</td></tr>
   <tr><td align="center"><strong>Organització fictícia</strong></td><td align="center">K-SIX Solutions</td></tr>
   <tr><td align="center"><strong>Durada estimada</strong></td><td align="center">168 hores</td></tr>
@@ -84,6 +88,7 @@
   <tr><td align="center"><strong>Estat</strong></td><td align="center">En desenvolupament</td></tr>
   <tr><td align="center"><strong>Revisió de l'enunciat</strong></td><td align="center">Octubre de 2026</td></tr>
 </table>
+</div>
 
 ---
 
@@ -130,7 +135,7 @@
 
 ```mermaid
 flowchart TB
-    A["👨‍💻 Equip tècnic"] --> B["🛡️ SOC local"]
+    A["👥 Equip de treball"] --> B["🛡️ SOC local"]
     B --> C["📊 Monitoratge i registres"]
     B --> D["🖥️ Entorn de virtualització"]
     D --> E["💻 Màquina d'anàlisi"]
@@ -336,26 +341,24 @@ Revisió de configuracions, reducció de la superfície d'atac i incorporació d
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2500&pause=800&color=00D4AA&center=true&vCenter=true&width=500&lines=THE+TEAM+BEHIND+THE+LAB;FOUR+MEMBERS.+ONE+MISSION.;LEARN+%7C+ANALYZE+%7C+PROTECT" alt="Team animation"/>
 </p>
 
-<table>
+<div align="center">
+<table align="center">
   <tr>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/01-NAHUEL_G-0B1020?style=for-the-badge&labelColor=075985" alt="Nahuel G"/>
-      <br/><sub>Equip tècnic</sub>
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/02-EDU_G-0B1020?style=for-the-badge&labelColor=075985" alt="Edu G"/>
-      <br/><sub>Equip tècnic</sub>
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/03-MARC_J-0B1020?style=for-the-badge&labelColor=075985" alt="Marc J"/>
-      <br/><sub>Equip tècnic</sub>
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/04-ALEXIS_T-0B1020?style=for-the-badge&labelColor=075985" alt="Alexis T"/>
-      <br/><sub>Equip tècnic</sub>
     </td>
   </tr>
 </table>
+</div>
 
 <p align="center">
   <sub>La distribució de responsabilitats s'actualitzarà segons l'organització definitiva de l'equip.</sub>
@@ -391,7 +394,8 @@ Revisió de configuracions, reducció de la superfície d'atac i incorporació d
 
 <h2 align="center">🌱 SOSTENIBILITAT</h2>
 
-<table>
+<div align="center">
+<table align="center">
   <tr>
     <td align="center" width="33%">
       <h3>♻️</h3>
@@ -410,6 +414,7 @@ Revisió de configuracions, reducció de la superfície d'atac i incorporació d
     </td>
   </tr>
 </table>
+</div>
 
 ---
 
@@ -434,11 +439,6 @@ Revisió de configuracions, reducció de la superfície d'atac i incorporació d
 ---
 
 <!-- ==================== PEU ANIMAT ==================== -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4AA,50:075985,100:0B1020&height=160&section=footer&animation=fadeIn" width="100%" alt="Animated cybersecurity footer"/>
-</p>
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=00D4AA&center=true&vCenter=true&width=600&lines=LEARN.+ANALYZE.+PROTECT.;MALWARE+%26+SANDBOXING+LAB;BUILT+BY+NAHUEL%2C+EDU%2C+MARC+%26+ALEXIS" alt="Animated footer"/>
 </p>
@@ -447,9 +447,12 @@ Revisió de configuracions, reducció de la superfície d'atac i incorporació d
   <img src="https://img.shields.io/badge/TEAM-4%20MEMBERS-075985?style=for-the-badge" alt="Team"/>
   <img src="https://img.shields.io/badge/PROJECT-168%20HOURS-008F76?style=for-the-badge" alt="Duration"/>
   <img src="https://img.shields.io/badge/FOCUS-CYBERSECURITY-6D28D9?style=for-the-badge" alt="Focus"/>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4AA,50:075985,100:0B1020&height=160&section=footer&animation=fadeIn" width="100%" alt="Animated cybersecurity footer"/>
 </p>
 
 <p align="center">
   <strong>K-SIX SOLUTIONS</strong><br/>
-  <sub>Projecte acadèmic de ciberseguretat · Octubre de 2026</sub>
-</p>
+  <sub>Projecte acadèmic de ciberseguretat · Novembre de 2026</sub>
+
