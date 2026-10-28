@@ -1,0 +1,21 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="60%" stop-color="#075985"/>
+      <stop offset="100%" stop-color="#008F76"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-opacity=".12">
+    <path d="M0 220 L300 40 L550 280 M700 0 L950 280 L1200 80"/>
+    <circle cx="1030" cy="75" r="115"/>
+    <circle cx="1030" cy="75" r="80"/>
+    <circle cx="1030" cy="75" r="45"/>
+  </g>
+  <text x="600" y="112" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="43" font-weight="700" text-anchor="middle">MALWARE &amp; SANDBOXING</text>
+  <text x="600" y="158" fill="#5EEAD4" font-family="Arial,sans-serif" font-size="20" letter-spacing="3" text-anchor="middle">K-SIX SOLUTIONS</text>
+  <text x="600" y="198" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="16" text-anchor="middle">ANALYZE  ·  DETECT  ·  PROTECT</text>
+  <text x="600" y="244" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">NAHUEL G  ·  EDU G  ·  MARC J  ·  ALEXIS T</text>
+</svg>
