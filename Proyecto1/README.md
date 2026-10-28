@@ -81,7 +81,7 @@
 <div align="center">
 <table align="center">
   <tr><td align="center"><strong>Àmbit</strong></td><td align="center">Ciberseguretat i sistemes</td></tr>
-  <tr><td align="center"><strong>Organització fictícia</strong></td><td align="center">K-SIX Solutions</td></tr>
+  <tr><td align="center"><strong>Organització</strong></td><td align="center">K-SIX Solutions</td></tr>
   <tr><td align="center"><strong>Durada estimada</strong></td><td align="center">168 hores</td></tr>
   <tr><td align="center"><strong>Dificultat</strong></td><td align="center">Mitjana</td></tr>
   <tr><td align="center"><strong>Modalitat</strong></td><td align="center">Projecte tècnic en equip</td></tr>
