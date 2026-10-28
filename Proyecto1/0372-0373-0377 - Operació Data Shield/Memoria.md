@@ -308,8 +308,8 @@ Això permet que diferents aplicacions consumeixin la mateixa informació indepe
 
 | Fitxer | Descripció |
 |---|---|
-| [`fitxa_mostres.xml`](fitxa_mostres.xml) | Fitxer d'intercanvi de dades en format XML. |
-| [`fitxa_mostres.json`](fitxa_mostres.json) | Fitxer d'intercanvi de dades en format JSON. |
+| [`fitxa_mostres.xml`](<Fitxers/fitxa_mostres.xml>) | Fitxer d'intercanvi de dades en format XML. |
+| [`fitxa_mostres.json`](<Fitxers/fitxa_mostres.json>) | Fitxer d'intercanvi de dades en format JSON. |
 | [`README.md`](README.md) | Documentació principal de l'activitat. |
 
 ---
