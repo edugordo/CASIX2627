@@ -656,3 +656,9 @@ El disseny deixa marge per ampliar el nombre de dispositius i diferencia les nec
   <strong>K-SIX SOLUTIONS</strong><br/>
   <sub>Projecte acadèmic · Planificació i configuració de xarxes</sub>
 </p>
+
+<div align="center">
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/⬅️_TORNAR_AL_README-1F6FEB?style=for-the-badge&logo=github&logoColor=white" alt="Tornar al README principal">
+  </a>
+</div>
