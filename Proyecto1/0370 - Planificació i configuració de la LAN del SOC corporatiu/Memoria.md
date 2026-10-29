@@ -275,243 +275,323 @@ Com que els dos servidors són a la mateixa LAN, la MAC de destinació de la tra
 
 <div align="center">
 
-### 📸 CAPTURA 01
+### Configuració del "hostname" i l'adreça IP + la màscara d'el router
 
 ![Imatge1](Captures/1.png)
 
-**Descripció**
+S'està establint el nom de l'encaminador com a R-SOC, s'assigna l'adreça IP 172.20.0.1 amb màscara 255.255.255.0 a la interfície FastEthernet0/0 i s'activa la interfície mitjançant la comanda 'no shutdown'.
 
-Escriu aquí l'explicació de la captura 01.
+</div>
+  
+```bash
+enable
+conf t
+hostname R-SOC
+interface fa0/0
+address 172.20.0.1 255.255.255.0
+no shutdown
+exit
+```
 
 ---
 
-### 📸 CAPTURA 02
+<div align="center">
+
+### 📡 Configuració de la interfície LAN i del servidor DHCP del router R-SOC
 
 ![Imatge2](Captures/2.png)
 
-**Descripció**
+Configurem la interfície FastEthernet0/0 amb l'adreça IP 172.20.0.1/24, l'activem amb `no shutdown` i configurem el servei DHCP per assignar adreces IP automàticament als dispositius de la xarxa Wi-Fi, reservant els rangs d'adreces excloses i establint la passarel·la predeterminada.
 
-Escriu aquí l'explicació de la captura 02.
+</div>
+
+```bash
+dhcp excluded-address 172.20.0.1 172.20.0.99
+dhcp escluded-address 172.20.0.200 172.20.0.254
+dhcp pool WIFI
+network 172.20.0.0 255.255.255.0
+default router 172.20.0.1
+end
+write memory
+```
 
 ---
 
-### 📸 CAPTURA 03
+<div align="center">
+
+### 🔌 Configuració de la interfície VLAN 1 de l'switch SW-SOC
 
 ![Imatge3](Captures/3.png)
 
-**Descripció**
+Assignem el nom SW-SOC a l'switch i configurem la interfície virtual VLAN 1 amb l'adreça IP 172.20.0.2/24. Finalment, activem la interfície amb la comanda `no shutdown` per permetre la comunicació i facilitar l'administració de l'switch dins de la xarxa del SOC.
 
-Escriu aquí l'explicació de la captura 03.
+</div>
+
+```bash
+enable
+conf t
+hostname SW-SOC
+interface vlan 1
+address 172.20.0.2 255.255.255.0
+no shutdown
+exit
+```
 
 ---
 
-### 📸 CAPTURA 04
+<div align="center">
+
+### 🔌 Configuració de la interfície de xarxa i gateway al Switch SW-SOC
 
 ![Imatge4](Captures/4.png)
 
-**Descripció**
+"S'està assignant l'adreça IP 172.20.0.2/24 a la interfície VLAN 1 del switch SW-SOC, s'activa la interfície amb 'no shutdown', es configura la porta d'enllaç predeterminada (172.20.0.1) i es desden en la memòria NVRAM els canvis realitzats."
 
-Escriu aquí l'explicació de la captura 04.
+</div>
+
+```bash
+ip default-gateway 172.20.0.1
+end
+write memory
+```
 
 ---
 
-### 📸 CAPTURA 05
+<div align="center">
+
+### 🔌 Configuració d'adreça IP estàtica al servidor EMULACIO
 
 ![Imatge5](Captures/5.png)
 
-**Descripció**
+"S'està establint una adreça IP estàtica 172.20.0.11 amb màscara de xarxa 255.255.255.0 al servidor d'EMULACIÓ."
 
-Escriu aquí l'explicació de la captura 05.
+</div>
 
 ---
 
-### 📸 CAPTURA 06
+<div align="center">
+
+### 🔌 Configuració d'adreça IP estàtica al servidor de SANDBOX
 
 ![Imatge6](Captures/6.png)
 
-**Descripció**
+"S'està assignant l'adreça IP estàtica 172.20.0.10 i la màscara 255.255.255.0 al servidor SANDBOX."
 
-Escriu aquí l'explicació de la captura 06.
+</div>
 
 ---
 
-### 📸 CAPTURA 07
+<div align="center">
+
+### 🔌 Configuració IP estàtica al PC1
 
 ![Imatge7](Captures/7.png)
 
-**Descripció**
+"Es configura la direcció IP estàtica 172.20.0.50 amb màscara de xarxa 255.255.255.0 a l'ordinador PC1."
 
-Escriu aquí l'explicació de la captura 07.
+</div>
 
 ---
 
-### 📸 CAPTURA 08
+<div align="center">
+
+### 🔌 Configuració IP estàtica al PC2
 
 ![Imatge8](Captures/8.png)
 
-**Descripció**
+"Es defineix la configuració d'IP estàtica per al PC2 amb l'adreça 172.20.0.51 i màscara 255.255.255.0."
 
-Escriu aquí l'explicació de la captura 08.
+</div>
 
 ---
 
-### 📸 CAPTURA 09
+<div align="center">
+
+### 🔌 Configuració IP estàtica al PC3
 
 ![Imatge9](Captures/9.png)
 
-**Descripció**
+"S'assigna l'adreça IP estàtica 172.20.0.52 i la màscara de xarxa 255.255.255.0 a l'equip PC3."
 
-Escriu aquí l'explicació de la captura 09.
+</div>
 
 ---
 
-### 📸 CAPTURA 10
+<div align="center">
+
+### 🔌 Visualització física del mòdul sense fil a Laptop1
 
 ![Imatge10](Captures/10.png)
 
-**Descripció**
+"Canviem l'adaptador de xarxa per cable dels portàtils per una targeta de xarxa inal·làmbrica"
 
-Escriu aquí l'explicació de la captura 10.
+</div>
 
 ---
 
-### 📸 CAPTURA 11
+<div align="center">
+
+### 🔌 Cerca de xarxes sense fil disponibles a Laptop1
 
 ![Imatge11](Captures/11.png)
 
-**Descripció**
+"S'està escanejant l'entorn Wi-Fi des de Laptop1 mitjançant el gestor Wireless Network Monitor, on es detecta la xarxa sense fil 'SOC-K6' al canal 1 amb seguretat WPA2-PSK."
 
-Escriu aquí l'explicació de la captura 11.
+</div>
 
 ---
 
-### 📸 CAPTURA 12
+<div align="center">
+
+### 🔌 Introducció de la clau WPA2-Personal a Laptop1
 
 ![Imatge12](Captures/12.png)
 
-**Descripció**
+"S'està introduint la contrasenya de seguretat ('usuari123') amb tipus d'autenticació WPA2-Personal per connectar Laptop1 a la xarxa Wi-Fi seleccionada."
 
-Escriu aquí l'explicació de la captura 12.
+</div>
 
 ---
 
-### 📸 CAPTURA 13
+<div align="center">
+
+### 🔌 Obtenció d'adreça IP per DHCP a Laptop1
 
 ![Imatge13](Captures/13.png)
 
-**Descripció**
+"S'està sol·licitant i registrant automàticament l'adreça IP via DHCP (172.20.0.100/24) a l'equip Laptop1."
 
-Escriu aquí l'explicació de la captura 13.
+</div>
 
 ---
 
-### 📸 CAPTURA 14
+<div align="center">
+
+### 🔌 Configuració IP per DHCP a Laptop2
 
 ![Imatge14](Captures/14.png)
 
-**Descripció**
+"S'està obtenint l'adreça IP dinàmica per DHCP (172.20.0.102/24) al portàtil Laptop2."
 
-Escriu aquí l'explicació de la captura 14.
+</div>
 
 ---
 
-### 📸 CAPTURA 15
+<div align="center">
+
+### 🔌 Configuració IP per DHCP a Laptop3
 
 ![Imatge15](Captures/15.png)
 
-**Descripció**
+"S'està confirmant la configuració IP automàtica via DHCP a Laptop3, obtenint la direcció 172.20.0.103 i la porta d'enllaç 172.20.0.1."
 
-Escriu aquí l'explicació de la captura 15.
+</div>
 
 ---
 
-### 📸 CAPTURA 16
+<div align="center">
+
+### 🔌 Prova de connectivitat (Ping) des del servidor SANDBOX cap a EMULACIO
 
 ![Imatge16](Captures/16.png)
 
-**Descripció**
+"S'executa la comanda 'ping 172.20.0.11' des de la consola del servidor SANDBOX per verificar que hi ha connectivitat correcta amb el servidor d'EMULACIO (0% de pèrdua de paquets)."
 
-Escriu aquí l'explicació de la captura 16.
+</div>
 
 ---
 
-### 📸 CAPTURA 17
+<div align="center">
+
+### 🔌 Configuració del punt d'accés AP1
 
 ![Imatge17](Captures/17.png)
 
-**Descripció**
+"Es configura el port 1 del punt d'accés AP1 assignant l'SSID 'SOC-K6' al canal 1, amb seguretat WPA2-PSK i xifratge AES utilitzant la contrasenya 'usuari123'."
 
-Escriu aquí l'explicació de la captura 17.
+</div>
 
 ---
 
-### 📸 CAPTURA 18
+<div align="center">
+
+### 🔌 Configuració del punt d'accés AP2
 
 ![Imatge18](Captures/18.png)
 
-**Descripció**
+"Es defineix la configuració del punt d'accés AP2 amb el mateix SSID 'SOC-K6' i clau WPA2-PSK, però utilitzant el canal 11 per evitar interferències."
 
-Escriu aquí l'explicació de la captura 18.
+</div>
 
 ---
 
-### 📸 CAPTURA 19
+<div align="center">
+
+### 🔌 Prova de connectivitat des de PC1 cap a la Gateway
 
 ![Imatge19](Captures/19.png)
 
-**Descripció**
+"S'executa un ping des de PC1 cap a la porta d'enllaç (172.20.0.1) des de la consola de comandes, obtenint una resposta satisfatòria de tots els paquets enviats."
 
-Escriu aquí l'explicació de la captura 19.
+</div>
 
 ---
 
-### 📸 CAPTURA 20
+<div align="center">
+
+### 🔌 Prova de connectivitat des de Laptop2 cap a SANDBOX
 
 ![Imatge20](Captures/20.png)
 
-**Descripció**
+"S'efectua una comprovació de xarxa mitjançant la comanda 'ping 172.20.0.10' des de Laptop2 per validar la comunicació sense fil cap al servidor SANDBOX."
 
-Escriu aquí l'explicació de la captura 20.
+</div>
 
 ---
 
-### 📸 CAPTURA 21
+<div align="center">
+
+### 🔌 Filtrat de protocols en el mode simulació
 
 ![Imatge21](Captures/21.png)
 
-**Descripció**
+"S'està configurant el filtre de llista d'esdeveniments en el mode simulació per capturar únicament el tràfic de protocol ICMP (ping)."
 
-Escriu aquí l'explicació de la captura 21.
+</div>
 
 ---
 
-### 📸 CAPTURA 22
+<div align="center">
+
+### 🔌 Traça de paquets ICMP en la llista d'esdeveniments
 
 ![Imatge22](Captures/22.png)
 
-**Descripció**
+"Es mostra el seguiment pas a pas de la simulació de paquets ICMP viatjant des del servidor SANDBOX cap al switch SW-SOC i la seva destinació a EMULACIO."
 
-Escriu aquí l'explicació de la captura 22.
+</div>
 
 ---
 
-### 📸 CAPTURA 23
+<div align="center">
+
+### 🔌 Detalls de la PDU segons el model OSI al dispositiu SANDBOX
 
 ![Imatge23](Captures/23.png)
 
-**Descripció**
+"S'analitza la informació de la PDU d'entrada al dispositiu SANDBOX, mostrant les capes del model OSI (Capa 1 FastEthernet, Capa 2 Ethernet II i Capa 3 IP amb origen 172.20.0.11 i destinació 172.20.0.10)."
 
-Escriu aquí l'explicació de la captura 23.
+</div>
 
 ---
 
-### 📸 CAPTURA 24
+<div align="center">
+
+### 🔌 Topologia general de la xarxa en Cisco Packet Tracer
 
 ![Imatge24](Captures/24.png)
 
-**Descripció**
-
-Escriu aquí l'explicació de la captura 24.
+"S'observa el esquema complet de la xarxa dividit en les diferents àrees (Sala Principal, Sala de Crisi i Sala Tècnica Sandbox), connectant els ordinadors, ordinadors portàtils, punts d'accés Wi-Fi, servidors, el switch central SW-SOC i el encaminador R-SOC."
 
 </div>
 
