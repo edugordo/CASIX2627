@@ -271,8 +271,3 @@ Al Classroom s'obrirà un apartat específic per lliurar els materials de l'acti
 <p align="center">
   <strong>NAHUEL G · EDU G · MARC J · ALEXIS T</strong>
 </p>
-
-<p align="center">
-  <a href="README.md">← Tornar al README principal</a>
-</p>
-
