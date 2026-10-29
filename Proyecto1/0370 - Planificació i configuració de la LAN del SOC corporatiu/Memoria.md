@@ -265,6 +265,8 @@ Com que els dos servidors són a la mateixa LAN, la MAC de destinació de la tra
 
 ---
 
+<a id="evidencies"></a>
+
 <h2 align="center">🖥️ 05 · EVIDÈNCIES DE CISCO PACKET TRACER</h2>
 
 <p align="center">
