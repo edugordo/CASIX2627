@@ -15,6 +15,12 @@
 
 **NAHUEL G · EDU G · MARC J · ALEXIS T**
 
+<div align="center">
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/⬅️_TORNAR_AL_README-1F6FEB?style=for-the-badge&logo=github&logoColor=white" alt="Tornar al README principal">
+  </a>
+</div>
+
 </div>
 
 ---
