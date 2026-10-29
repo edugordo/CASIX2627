@@ -16,6 +16,12 @@
 **NAHUEL G · EDU G · MARC J · ALEXIS T**
 
 <div align="center">
+  <a href="https://www.netacad.com/cisco-packet-tracer" target="_blank">
+    <img src="https://cdn.simpleicons.org/cisco/049FD9" width="90" alt="Cisco Packet Tracer">
+  </a>
+</div>
+
+<div align="center">
   <a href="README.md">
     <img src="https://img.shields.io/badge/⬅️_TORNAR_AL_README-1F6FEB?style=for-the-badge&logo=github&logoColor=white" alt="Tornar al README principal">
   </a>
@@ -652,11 +658,16 @@ El disseny deixa marge per ampliar el nombre de dispositius i diferencia les nec
   <img src="https://img.shields.io/badge/TEAM-K--SIX-6D28D9?style=for-the-badge" alt="Team"/>
 </p>
 
+<div align="center">
+  <a href="https://www.netacad.com/cisco-packet-tracer" target="_blank">
+    <img src="https://cdn.simpleicons.org/cisco/049FD9" width="90" alt="Cisco Packet Tracer">
+  </a>
+</div>
+
 <p align="center">
   <strong>K-SIX SOLUTIONS</strong><br/>
   <sub>Projecte acadèmic · Planificació i configuració de xarxes</sub>
 </p>
-
 <div align="center">
   <a href="README.md">
     <img src="https://img.shields.io/badge/⬅️_TORNAR_AL_README-1F6FEB?style=for-the-badge&logo=github&logoColor=white" alt="Tornar al README principal">
