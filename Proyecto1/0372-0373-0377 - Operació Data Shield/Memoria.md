@@ -307,11 +307,6 @@ Això permet que diferents aplicacions consumeixin la mateixa informació indepe
 ---
 
 <!-- ==================== PEU DE PÀGINA ==================== -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4AA,50:075985,100:0B1020&height=120&section=footer" width="100%" alt="K-SIX Solutions footer"/>
-</p>
-
 <p align="center">
   <strong>K-SIX SOLUTIONS</strong>
 </p>
@@ -323,3 +318,9 @@ Això permet que diferents aplicacions consumeixin la mateixa informació indepe
 <p align="center">
   <sub>0372-0373-0377 · OPERACIÓ DATA SHIELD</sub>
 </p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4AA,50:075985,100:0B1020&height=120&section=footer" width="100%" alt="K-SIX Solutions footer"/>
+</p>
+
+
