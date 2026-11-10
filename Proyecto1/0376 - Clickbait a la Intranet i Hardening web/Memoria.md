@@ -327,7 +327,8 @@ S’han verificat els elements següents:
 - Emmagatzematge de l’identificador `NORTHSTAR-H3-001` a MariaDB.
 - Registre de la petició als fitxers de log d’Apache.
 - Registre de les capçaleres HTTP seleccionades.
-
+- [Fitxer PHP](Fitxers/simulador.php)
+- [Fitxer SQL](Fitxers/crear_bd.sql)
 ---
 
 ### 🔐 3.8. Adaptació de seguretat respecte de l’enunciat
@@ -371,6 +372,3 @@ En conjunt, el projecte demostra la integració entre sistemes Windows i Linux, 
 <p align="center">
   <sub>NORTHSTAR SOC · INFRASTRUCTURE · SIMULATION · MONITORING · TELEMETRY</sub>
 </p>
-```sql
-SELECT * FROM callback_hito3
-LIMIT 10;
